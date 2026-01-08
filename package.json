@@ -2,13 +2,14 @@
   "name": "react-scss-vite",
   "private": true,
   "type": "module",
+  "homepage": "https://michaeliq.github.io/event_clap_page/",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@react-router/node": "7.10.1",
