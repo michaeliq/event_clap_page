@@ -5,5 +5,8 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
-  base:"/event_clap_page"
+  base:"/event_clap_page",
+  build: {
+    outDir: "dist",
+  },
 });
