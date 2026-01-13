@@ -28,7 +28,7 @@ export default function Footer(){
                     <li className="link_social_footer text-white"><a href=""><img className="inline mr-2" src={icon_mail} alt="Correo electrónico Event Clap"/> gerencia@eventclap.com</a></li>
                     <li className="link_social_footer text-white"><a href=""><img className="inline mr-2" src={icon_address} alt="Dirección de Event Clap"/> Cr 28B N 72 -12 Bogotá- Colombia</a></li>
                     <li className="link_social_footer text-white"><a href=""><img className="inline mr-2" src={icon_instagram} alt="Cuenta de instagram de Event Clap"/> event_clap</a></li>
-                    <li className="link_social_footer text-white"><a href=""><img className="inline mr-2" src={icon_instagram} alt="Cuenta de facebook de Event Clap"/> Juan Carlos Giraldo</a></li>
+                    <li className="link_social_footer text-white"><a href=""><img className="inline mr-2" src={icon_facebook} alt="Cuenta de facebook de Event Clap"/> Juan Carlos Giraldo</a></li>
                 </ul>
             </div> 
         </div>
