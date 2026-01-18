@@ -7,13 +7,13 @@ export default function HeroSectionHome() {
             className="hero_section_home relative w-screen bg-gray-900"
             id="hero_section_home"
             style={{
-                height:"100vh",
-                maxHeight:"901px",
-                minHeight:"700px",
+                width:"100vw",
+                height:"auto",
+                minHeight:"100vh",
                 backgroundImage:`url(${image_banner})`,
                 backgroundRepeat:"no-repeat",
-                backgroundPosition:"top",
-                backgroundSize:"100% 100%",
+                backgroundPosition:"center",
+                backgroundSize:"cover",
                 display:"flex",
                 justifyContent:"center",
                 alignItems:"center",
@@ -30,7 +30,7 @@ export default function HeroSectionHome() {
                     alignItems:"start",
                 }}
             >
-                <h1 className="title_info_section_home w-90 text-[40px] font-bold leading-12 text-white">
+                <h1 className="title_info_section_home w-100 text-[40px] font-bold leading-12 text-white">
                     Donde la emoción se encuentra con la innovación.
                 </h1>
                 <h4 className="subtitle_info_section_home w-85 text-[26px] font-light leading-8 text-white">

@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router"
+import logo from "../assets/logo.webp"
 
 export default function Header(){
 
@@ -7,15 +8,21 @@ export default function Header(){
         <div className="header" style={{
             width:"100vw",
             position:"absolute",
-            top:"125px",
+            top:"80px",
             left:"0px",
-            display:"flex",
             padding:"0px 100px",
-            zIndex:1000
+            zIndex:1000,
+            display:"flex",
+            justifyContent:"space-between",
+            alignItems:"center",
+            paddingLeft:"11.5%",
+            paddingRight:"11.5%",
         }}>
             <div className="img_logo" style={{
                 flex:1
-            }}></div>
+            }}>
+                <img src={logo} className="w-[50%] max-w-[350px]" alt="Logo Event Clap"/>
+            </div>
             <nav className="menu_container" style={{
                 width:"100%",
                 flex:2
