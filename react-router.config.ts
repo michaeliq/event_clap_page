@@ -6,6 +6,6 @@ export default {
   ssr: true,
   appDirectory:"src/app",
   async prerender(){
-    return ["/","servicios"]
+    return ["/","bodas","eventos_corporativos","activacion_btl","marketing_emocional"]
   },
 } satisfies Config;
