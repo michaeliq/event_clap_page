@@ -9,6 +9,7 @@ import BTLSectionHome from "src/containers/home/BTLSection";
 import MarketingSectionHome from "src/containers/home/MarketingSection";
 import TestimonialsSectionHome from "src/containers/home/Testimonials";
 import ContactSection from "src/components/Contact";
+import PartnerSection from "src/components/PartnerSection";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -29,6 +30,7 @@ export default function Home() {
       <BTLSectionHome/>
       <MarketingSectionHome/>
       <TestimonialsSectionHome/>
+      <PartnerSection/>
       <ContactSection/>
     </>
   );

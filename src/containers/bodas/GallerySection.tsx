@@ -1,14 +1,14 @@
 import rectangle_gray from "../../assets/rectangle_gray.webp";
-import img_2_gallery from "../../assets/img_2_gallery_section.webp";
-import img_3_gallery from "../../assets/img_3_gallery_section.webp";
-import img_4_gallery from "../../assets/img_4_gallery_section.webp";
-import img_5_gallery from "../../assets/img_5_gallery_section.webp";
-import img_6_gallery from "../../assets/img_6_gallery_section.webp";
-import img_7_gallery from "../../assets/img_7_gallery_section.webp";
+import img_2_gallery from "../../assets/img_8_gallery_section.webp";
+import img_3_gallery from "../../assets/img_9_gallery_section.webp";
+import img_4_gallery from "../../assets/img_10_gallery_section.webp";
+import img_5_gallery from "../../assets/img_11_gallery_section.webp";
+import img_6_gallery from "../../assets/img_12_gallery_section.webp";
+import img_7_gallery from "../../assets/img_13_gallery_section.webp";
 
-export default function GallerySectionHome() {
+export default function GallerySectionBodas() {
     return (
-        <section className="gallery_section_home" id="gallery_section_home" style={{
+        <section className="gallery_section_bodas" id="gallery_section_bodas" style={{
             backgroundColor: "#fff",
             width: "100%",
             minHeight: "745px",
@@ -30,26 +30,26 @@ export default function GallerySectionHome() {
                     justifyContent: "flex-start",
                     alignItems: "center",
                 }}
-                className="container_gallery_section_home mb-20">
+                className="container_gallery_section_bodas mb-20">
 
-                <div className="header_container_gallery_section_home flex justify-center items-center gap-5 my-5">
+                <div className="header_container_gallery_section_bodas flex justify-center items-center gap-5 my-5">
                     <div className="line w-[82px] h-[2px] bg-[#720742]"></div>
-                    <h2 className="title_gallery_section_home uppercase text-[45px] text-[#390447] font-bold">
+                    <h2 className="title_gallery_section_bodas uppercase text-[45px] text-[#390447] font-bold">
                         eventos destacados
                     </h2>
                     <div className="line w-[82px] h-[2px] bg-[#720742]"></div>
                 </div>
-                <div className="img_content_gallery_section_home flex flex-col gap-y-4">
-                    <div className="row_1_content_gallery_section_home flex justify-evenly items-center gap-4">
+                <div className="img_content_gallery_section_bodas flex flex-col gap-y-4">
+                    <div className="row_1_content_gallery_section_bodas flex justify-evenly items-center gap-4">
                         <img src={rectangle_gray} alt="Image Galery 1" />
                         <img src={img_2_gallery} alt="Image Galery 2" />
                     </div>
-                    <div className="row_1_content_gallery_section_home flex justify-evenly items-center gap-4">
+                    <div className="row_1_content_gallery_section_bodas flex justify-evenly items-center gap-4">
                         <img src={img_3_gallery} alt="Image Galery 3" />
                         <img src={img_4_gallery} alt="Image Galery 4" />
                         <img src={img_5_gallery} alt="Image Galery 5" />
                     </div>
-                    <div className="row_1_content_gallery_section_home flex justify-evenly items-center gap-4">
+                    <div className="row_1_content_gallery_section_bodas flex justify-evenly items-center gap-4">
                         <img src={img_6_gallery} alt="Image Galery 6" />
                         <img src={img_7_gallery} alt="Image Galery 7" />
                     </div>

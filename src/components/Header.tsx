@@ -21,7 +21,9 @@ export default function Header(){
             <div className="img_logo" style={{
                 flex:1
             }}>
+                <Link to={"/"}>
                 <img src={logo} className="w-[50%] max-w-[350px]" alt="Logo Event Clap"/>
+                </Link>
             </div>
             <nav className="menu_container" style={{
                 width:"100%",
@@ -30,15 +32,16 @@ export default function Header(){
                 <ul className="menu_list" style={{
                     display:"flex",
                     justifyContent:"flex-end",
+                    alignItems:"center",
                     width:"100%",
                     flex:1,
                     columnGap:"40px"
                 }}>
-                    <Link to={"#"}><li className="font-bold uppercase text-white">Nosotros</li></Link>
-                    <Link to={"#"}><li className="font-bold uppercase text-white">Servicios</li></Link>
+                    <Link to={"/#we_section_home"}><li className="font-bold uppercase text-white">Nosotros</li></Link>
+                    <Link to={"/#services_section_home"}><li className="font-bold uppercase text-white">Servicios</li></Link>
                     <Link to={"#"}><li className="font-bold uppercase text-white">Música</li></Link>
-                    <Link to={"#"}><li className="font-bold uppercase text-white">Galería</li></Link>
-                    <Link to={"#"}><li className="font-bold uppercase text-white">Contacto</li></Link>
+                    <Link to={"/#gallery_section_home"}><li className="font-bold uppercase text-white">Galería</li></Link>
+                    <Link className="bg-[#700893] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893]" to={"https://wa.me/573188016709"} target="_blank"><li className="font-bold uppercase">Contacto</li></Link>
                 </ul>
             </nav>
         </div>

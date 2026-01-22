@@ -8,22 +8,22 @@ import img_4_services_section_home from "../../assets/img_ref_4_services_section
 const cardsServices = [
     {
         title: "bodas & celebraciones",
-        link: "",
+        link: "/bodas",
         img_src: img_1_services_section_home
     },
     {
         title: "eventos corporativos",
-        link: "",
+        link: "/eventos_corporativos",
         img_src: img_2_services_section_home
     },
     {
         title: "activaciones btl",
-        link: "",
+        link: "activacion_btl",
         img_src: img_3_services_section_home
     },
     {
         title: "marketing emocional",
-        link: "",
+        link: "marketing_emocional",
         img_src: img_4_services_section_home
     },
 ]
@@ -68,7 +68,7 @@ export default function ServicesSectionHome() {
                 </div>
                 <div className="container_card_services_section_home flex justify-center items-center gap-5">
                     {cardsServices?.map((item, key) => (
-                        <div className="card_services_section_home flex flex-col justify-center items-center gap-x-6 gap-y-2">
+                        <div key={key} className="card_services_section_home flex flex-col justify-center items-center gap-x-6 gap-y-2">
                             <h4 
                             className="title_card_services_section_home uppercase text-white text-[26px]" 
                             style={{
