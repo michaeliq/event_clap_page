@@ -1,5 +1,9 @@
 import ContactSection from "src/components/Contact";
 import type { Route } from "./+types/eventos_corporativos";
+import HeroSectionEventosCorporativos from "src/containers/eventos_corporativos/HeroSection";
+import InfoSectionEventosCorporativos from "src/containers/eventos_corporativos/InfoSection";
+import StepSectionEventosCorporativos from "src/containers/eventos_corporativos/StepSection";
+import GallerySectionEventosCorporativos from "src/containers/eventos_corporativos/GallerySection";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -11,6 +15,10 @@ export function meta({}: Route.MetaArgs) {
 export default function Page() {
   return(
     <div className="">
+      <HeroSectionEventosCorporativos/>
+      <InfoSectionEventosCorporativos/>
+      <StepSectionEventosCorporativos/>
+      <GallerySectionEventosCorporativos/>
       <ContactSection/>
     </div>
   );

@@ -53,9 +53,9 @@ export default function MaESectionBodas() {
                 </div>
             </div>
 
-            <div className="container_2_m_a_e_section_bodas relative h-[230px] mt-[161px] p-5 rounded-lg flex flex-col items-center justify-center border border-[#05A3A3]">
-                <img src={caribes_img} alt="Son del Caribe" className="absolute -top-25" />
-                <p className="text_container_2_m_a_e_section_bodas w-[80%] text-center">
+            <div className="container_2_m_a_e_section_bodas relative h-[230px] mt-[161px] p-5 rounded-lg flex flex-col items-center justify-center border border-[#05A3A3] w-[80%]">
+                <img src={caribes_img} alt="Son del Caribe" className="absolute -top-[50%]" />
+                <p className="text_container_2_m_a_e_section_bodas w-[80%] text-[24px] text-center">
                     <span className="font-bold">Transforma cada celebración en una experiencia vibrante.</span><br />
                     Un show en vivo que fusiona ritmos latinos, clásicos y urbanos en un formato crossover que conecta generaciones y mantiene la pista encendida de principio a fin.
                 </p>
@@ -72,8 +72,8 @@ export default function MaESectionBodas() {
                             height: "40px",
                             width: "40%"
                         }}
-                        className="absolute z-[10] -bottom-5 cursor-pointer bg-[#390447] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff] hover:text-[#AD0569]">
-                            Vivir esta experiencia
+                        className="absolute z-[10] -bottom-5 cursor-pointer bg-[#390447] text-[30px] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff] hover:text-[#AD0569]">
+                            Elegir Son del Caribe
                 </button>
             </div>
         </section>

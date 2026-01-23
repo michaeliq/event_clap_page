@@ -34,7 +34,7 @@ export default function MentionSection() {
                         <br />
                         una banda sonora inolvidable.
                     </h4>
-                    <p className="content_text_mention_section_bodas text-white text-[20px]">
+                    <p className="content_text_mention_section_bodas text-white text-[20px] font-Barrow font-normal">
                         <span className="font-bold">
                             Nuestra excelencia también se escucha.
                         </span>
