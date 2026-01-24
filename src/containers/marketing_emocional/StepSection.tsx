@@ -2,24 +2,24 @@
 
 const cardsStep = [
     {
-        title: "Diseño de Experiencia",
-        content: "Conceptos temáticos + narrativa estratégica para reuniones, conferencias y lanzamientos.",
+        title: "Sonido Profesional",
+        content: "Claridad, potencia y emoción.",
     },
     {
-        title: "Producción Técnica 4.0",
-        content: "Sonido, iluminación, video, streaming, escenografía digital e interactividad.",
+        title: "Iluminación Escénica",
+        content: "Diseñada para cada momento clave.",
     },
     {
-        title: " Logística Integral",
-        content: "Montaje, permisos, seguridad, transporte y operación sin fricciones.",
+        title: "Pantallas & Mapping",
+        content: "Narrativa visual envolvente.",
     },
     {
-        title: "Gestión de Talento",
-        content: "Speakers, artistas, hosts, entrenadores y más.",
+        title: "Efectos Especiales",
+        content: "Pólvora fría, niebla, pistas LED interactivas.",
     },
     {
-        title: "Marketing & Difusión",
-        content: "Previos, activaciones en vivo, cobertura y contenido post–evento.",
+        title: "Streaming & Eventos Híbridos",
+        content: " Experiencias sin fronteras.",
     },
 ]
 
@@ -69,7 +69,7 @@ export default function StepSectionMarketingEmocional(){
                             width: "40%"
                         }}
                         className="cta_info_contact_section cursor-pointer bg-[#fff] transition duration-300 ease-in-out text-[25px] text-[#390447] font-bold hover:bg-[#fff] hover:text-[#AD0569]">
-                            Impulsar mi marca
+                            Cotizar producción técnica
                 </button>
         </div>
     )

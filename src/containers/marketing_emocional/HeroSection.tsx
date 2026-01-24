@@ -1,4 +1,4 @@
-import image_banner from "../../assets/banner_hero_event_corp.webp"
+import image_banner from "../../assets/bg_hero_marketing.webp"
 
 export default function HeroSectionMarketingEmocional() {
     return (
@@ -26,10 +26,10 @@ export default function HeroSectionMarketingEmocional() {
                 }}
             >
                 <h1 className="title_info_section_marketing_emocional w-[50%] text-[40px] font-bold leading-12 text-white">
-                    Eventos que mueven marcas, ideas y personas.
+                    Escenarios que enamoran. Tecnología que impacta.
                 </h1>
                 <h4 className="subtitle_info_section_marketing_emocional w-[40%] text-[26px] font-light leading-8 text-white">
-                    Producción Estratégica + Storytelling + Tecnología Híbrida.
+                    Sonido, iluminación, escenografía y streaming.
                 </h4>
                 <button className="cta_info_section_marketing_emocional cursor-pointer bg-[#BA1B56] transition duration-300 ease-in-out text-white hover:bg-[#fff] hover:text-[#AD0569]"
                     style={{
@@ -43,7 +43,7 @@ export default function HeroSectionMarketingEmocional() {
                         boxShadow: "5px 5px 10px #0008",
                     }}
                 >
-                     Ver soluciones corporativas
+                    Quiero mi evento con alma
                 </button>
             </div>
         </section>

@@ -2,24 +2,24 @@
 
 const cardsStep = [
     {
-        title: "Diseño de Experiencia",
-        content: "Conceptos temáticos + narrativa estratégica para reuniones, conferencias y lanzamientos.",
+        title: "Conceptos Disruptivos",
+        content: "Temáticas inspiradas en cultura, películas, símbolos y metáforas.",
     },
     {
-        title: "Producción Técnica 4.0",
-        content: "Sonido, iluminación, video, streaming, escenografía digital e interactividad.",
+        title: "Interactividad Tecnológica",
+        content: "AR, mapping, hologramas, simulaciones y apps inmersivas.",
     },
     {
-        title: " Logística Integral",
-        content: "Montaje, permisos, seguridad, transporte y operación sin fricciones.",
+        title: "Producción Completa",
+        content: "Escenografía, ambientación, sonido, logística y montaje.",
     },
     {
-        title: "Gestión de Talento",
-        content: "Speakers, artistas, hosts, entrenadores y más.",
+        title: "Viralidad Real",
+        content: "Cobertura en redes, fotografía, video y contenido estratégico.",
     },
     {
-        title: "Marketing & Difusión",
-        content: "Previos, activaciones en vivo, cobertura y contenido post–evento.",
+        title: "Activaciones BTL",
+        content: "Experiencias urbanas, interactivas y memorables.",
     },
 ]
 
@@ -69,7 +69,7 @@ export default function StepSectionActivacionBTL(){
                             width: "40%"
                         }}
                         className="cta_info_contact_section cursor-pointer bg-[#fff] transition duration-300 ease-in-out text-[25px] text-[#390447] font-bold hover:bg-[#fff] hover:text-[#AD0569]">
-                            Impulsar mi marca
+                            Crear una activación WOW
                 </button>
         </div>
     )

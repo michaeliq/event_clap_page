@@ -1,7 +1,7 @@
 import circle_1 from "../../assets/circle_1.webp";
 import circle_2 from "../../assets/circle_2.webp";
 import circle_3 from "../../assets/circle_3.webp";
-import img_info_section from "../../assets/img_evn_coorp_section.webp";
+import img_info_section from "../../assets/img_act_btl_section.webp";
 
 export default function InfoSectionActivacionBTL() {
     return (
@@ -30,12 +30,12 @@ export default function InfoSectionActivacionBTL() {
                     gap: "10px",
                 }}
             >
-                <h2 className="title_info_info_section_activacion_btl font-bold leading-[45px] text-[40px] text-[#390447] mb-3">
-                    Donde las marcas conectan, <br />
-                    <span className="font-normal">inspiran y movilizan.</span>
+                <h2 className="title_info_info_section_activacion_btl font-normal leading-[45px] text-[40px] text-[#390447] mb-3">
+                    <span className="font-bold">Cuando la creatividad</span><br />
+                    se vuelve experiencia.
                 </h2>
                 <p className="description_info_info_section_activacion_btl text-[22px] font-Barrow" style={{ width: "80%" }}>
-                    Diseñamos experiencias corporativas que alinean estrategia, emoción y tecnología. Eventos que impulsan cultura, liderazgo y memorabilidad.
+                    Creamos activaciones que se sienten, se viven y se comparten. Ideas disruptivas basadas en insights, narrativa emocional y sensorialidad que genera conversación.
                 </p>
             </div>
             <div

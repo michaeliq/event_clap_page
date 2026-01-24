@@ -1,4 +1,4 @@
-import image_banner from "../../assets/Bodas & Celebraciones.webp"
+import image_banner from "../../assets/bg_hero_btl.webp"
 
 export default function HeroSectionActivacionBTL() {
     return (
@@ -26,10 +26,10 @@ export default function HeroSectionActivacionBTL() {
                 }}
             >
                 <h1 className="title_info_section_activacion_btl w-[50%] text-[40px] font-bold leading-12 text-white">
-                    Eventos que mueven marcas, ideas y personas.
+                    Marcas que conectan. Experiencias que impactan.
                 </h1>
                 <h4 className="subtitle_info_section_activacion_btl w-[40%] text-[26px] font-light leading-8 text-white">
-                    Producción Estratégica + Storytelling + Tecnología Híbrida.
+                    Creatividad disruptiva para marcas que quieren conversación real.
                 </h4>
                 <button className="cta_info_section_activacion_btl cursor-pointer bg-[#BA1B56] transition duration-300 ease-in-out text-white hover:bg-[#fff] hover:text-[#AD0569]"
                     style={{
@@ -43,7 +43,7 @@ export default function HeroSectionActivacionBTL() {
                         boxShadow: "5px 5px 10px #0008",
                     }}
                 >
-                     Ver soluciones corporativas
+                    Activar mi marca
                 </button>
             </div>
         </section>

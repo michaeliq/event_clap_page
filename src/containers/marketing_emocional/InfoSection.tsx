@@ -1,7 +1,7 @@
 import circle_1 from "../../assets/circle_1.webp";
 import circle_2 from "../../assets/circle_2.webp";
 import circle_3 from "../../assets/circle_3.webp";
-import img_info_section from "../../assets/img_evn_coorp_section.webp";
+import img_info_section from "../../assets/img_info_marketing.webp";
 
 export default function InfoSectionMarkeringEmocional() {
     return (
@@ -31,11 +31,11 @@ export default function InfoSectionMarkeringEmocional() {
                 }}
             >
                 <h2 className="title_info_info_section_marketing_emocional font-bold leading-[45px] text-[40px] text-[#390447] mb-3">
-                    Donde las marcas conectan, <br />
-                    <span className="font-normal">inspiran y movilizan.</span>
+                    Tecnología que  <br />
+                    <span className="font-normal">potencia la experiencia.</span>
                 </h2>
                 <p className="description_info_info_section_marketing_emocional text-[22px] font-Barrow" style={{ width: "80%" }}>
-                    Diseñamos experiencias corporativas que alinean estrategia, emoción y tecnología. Eventos que impulsan cultura, liderazgo y memorabilidad.
+                    Potencializamos tu evento con producción técnica profesional y soluciones 4.0 conectadas, inteligentes y memorables.
                 </p>
             </div>
             <div
