@@ -53,7 +53,27 @@ export default function PartnerSection() {
                     boxShadow: "1px 2px 10px #0002, -1px -2px 10px #0002"
                 }}
                 className="logo_container_partner_section w-full py-5 flex justify-center items-center gap-[5%] mb-3">
-                <ImageCarousel images={images} visibleCount={5} step={1} autoPlay autoPlayInterval={2000} />
+                <ImageCarousel
+                    images={images}
+                    visibleCount={5}
+                    step={1}
+                    autoPlay
+                    autoPlayInterval={3000}
+                    responsive={{
+                        mobile: {
+                            visibleCount: 2,
+                            step: 1,
+                        },
+                        tablet: {
+                            visibleCount: 2,
+                            step: 1,
+                        },
+                        desktop: {
+                            visibleCount: 4,
+                            step: 1,
+                        },
+                    }}
+                />
             </div>
         </section>
     )
