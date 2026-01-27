@@ -1,3 +1,4 @@
+import Wave from "src/components/Wave"
 import image_banner from "../../assets/bg_hero_bodas.webp"
 
 export default function HeroSectionBodas() {
@@ -5,6 +6,7 @@ export default function HeroSectionBodas() {
         <section className="hero_section_bodas" style={{
             width: "100vw",
             height: "auto",
+            position:"relative",
             minHeight: "100vh",
             backgroundImage: `url(${image_banner})`,
             backgroundRepeat: "no-repeat",
@@ -15,6 +17,7 @@ export default function HeroSectionBodas() {
             alignItems: "center",
             borderBottom: "7px solid #F08844"
         }}>
+            <Wave/>
             <div 
                 className="info_section_bodas"
                 style={{

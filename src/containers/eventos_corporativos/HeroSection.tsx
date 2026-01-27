@@ -1,3 +1,4 @@
+import Wave from "src/components/Wave"
 import image_banner from "../../assets/banner_hero_event_corp.webp"
 
 export default function HeroSectionEventosCorporativos() {
@@ -6,6 +7,7 @@ export default function HeroSectionEventosCorporativos() {
             width: "100vw",
             height: "auto",
             minHeight: "100vh",
+            position:"relative",
             backgroundImage: `url(${image_banner})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
@@ -15,6 +17,7 @@ export default function HeroSectionEventosCorporativos() {
             alignItems: "center",
             borderBottom: "7px solid #F08844"
         }}>
+            <Wave/>
             <div
                 className="info_section_eventos_corporativos"
                 style={{

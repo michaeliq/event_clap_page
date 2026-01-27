@@ -1,3 +1,4 @@
+import Wave from "src/components/Wave"
 import image_banner from "../../assets/bg_hero_marketing.webp"
 
 export default function HeroSectionMarketingEmocional() {
@@ -6,6 +7,7 @@ export default function HeroSectionMarketingEmocional() {
             width: "100vw",
             height: "auto",
             minHeight: "100vh",
+            position:"relative",
             backgroundImage: `url(${image_banner})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
@@ -15,6 +17,7 @@ export default function HeroSectionMarketingEmocional() {
             alignItems: "center",
             borderBottom: "7px solid #F08844"
         }}>
+            <Wave/>
             <div
                 className="info_section_marketing_emocional"
                 style={{

@@ -1,3 +1,4 @@
+import Wave from "src/components/Wave"
 import image_banner from "../../assets/banner_hero_homepng.webp"
 
 export default function HeroSectionHome() {
@@ -20,6 +21,7 @@ export default function HeroSectionHome() {
                 borderBottom:"7px solid #F08844"
             }}
         >
+            <Wave/>
             <div 
                 className="info_section_home"
                 style={{
