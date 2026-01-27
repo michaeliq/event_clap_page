@@ -26,8 +26,9 @@
 }
 
 .carousel-slide img {
-    width: 80%;
-    display: block;
+  width: 60%;
+  max-width: 300px;
+  display: block;
   object-fit: cover;
   user-select: none;
 }
