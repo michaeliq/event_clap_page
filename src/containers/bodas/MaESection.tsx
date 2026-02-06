@@ -4,7 +4,7 @@ import caribes_img from "../../assets/Son_Caribe_logo 1.webp"
 
 export default function MaESectionBodas() {
     return (
-        <section className="m_a_e_section_bodas"
+        <section className="m_a_e_section_bodas" id="musica"
             style={{
                 backgroundColor: "#fff",
                 width: "100%",

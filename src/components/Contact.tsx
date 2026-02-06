@@ -116,7 +116,8 @@ export default function ContactSection() {
                     <h4 className="w-[100%] subtitle_map_container_2_contact_section text-[35px] font-light italic text-white bg-[#886891] text-center rounded-md py-2">
                         <img className="inline mr-2" src={icon_address} alt="Dirección de Event Clap" /> Dónde estamos?
                     </h4>
-                    <div className="w-[100%] min-h-[350px] bg-[#EDF0F7] rounded-lg"></div>
+                    <div ></div>
+                    <iframe className="w-[100%] min-h-[350px] bg-[#EDF0F7] rounded-lg" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7953.188410187575!2d-74.0727854!3d4.6662114!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a560f5550eb%3A0x4c0be9abc6eb39ce!2sCra.%2028b%20%2372-12%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1770348726362!5m2!1ses!2sco" style={{border:0}} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <div className="container_2_contact_section" style={{

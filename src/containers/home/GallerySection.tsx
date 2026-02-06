@@ -8,7 +8,7 @@ import img_7_gallery from "../../assets/img_7_gallery_section.webp";
 
 export default function GallerySectionHome() {
     return (
-        <section className="gallery_section_home" id="gallery_section_home" style={{
+        <section className="gallery_section_home" id="gallery_section" style={{
             backgroundColor: "#fff",
             width: "100%",
             minHeight: "745px",

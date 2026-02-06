@@ -4,6 +4,7 @@ import HeroSectionEventosCorporativos from "src/containers/eventos_corporativos/
 import InfoSectionEventosCorporativos from "src/containers/eventos_corporativos/InfoSection";
 import StepSectionEventosCorporativos from "src/containers/eventos_corporativos/StepSection";
 import GallerySectionEventosCorporativos from "src/containers/eventos_corporativos/GallerySection";
+import Speakers from "src/components/Speakers";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -19,6 +20,7 @@ export default function Page() {
       <InfoSectionEventosCorporativos/>
       <StepSectionEventosCorporativos/>
       <GallerySectionEventosCorporativos/>
+      <Speakers/>
       <ContactSection/>
     </div>
   );

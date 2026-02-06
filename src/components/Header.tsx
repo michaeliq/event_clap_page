@@ -39,9 +39,9 @@ export default function Header(){
                 }}>
                     <Link to={"/#we_section_home"}><li className="font-bold uppercase text-white">Nosotros</li></Link>
                     <Link to={"/#services_section_home"}><li className="font-bold uppercase text-white">Servicios</li></Link>
-                    <Link to={"#"}><li className="font-bold uppercase text-white">Música</li></Link>
-                    <Link to={"/#gallery_section_home"}><li className="font-bold uppercase text-white">Galería</li></Link>
-                    <Link className="bg-[#700893] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893]" to={"https://wa.me/573188016709"} target="_blank"><li className="font-bold uppercase">Contacto</li></Link>
+                    <Link to={"/bodas/#musica"}><li className="font-bold uppercase text-white">Música</li></Link>
+                    <Link to={"#gallery_section"}><li className="font-bold uppercase text-white">Galería</li></Link>
+                    <Link className="bg-[#700893] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893]" to={"#contact_section"}><li className="font-bold uppercase">Contacto</li></Link>
                 </ul>
             </nav>
         </div>
