@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+
+    <script>
+      const path = location.pathname
+        .replace("/NOMBRE_REPO", "")
+        .replace(/^\/+/, "");
+
+      const newUrl =
+        location.origin +
+        "/NOMBRE_REPO/?" +
+        path +
+        location.search +
+        location.hash;
+
+      location.replace(newUrl);
+    </script>
+  </head>
+  <body></body>
+</html>
