@@ -1,5 +1,3 @@
-import rectangle_gray from "../../assets/rectangle_gray.webp";
-import video1 from "../../assets/CONNECT 2025 (eventos corporativos).mov"
 import img_2_gallery from "../../assets/img_14_gallery_section.webp";
 import img_3_gallery from "../../assets/img_15_gallery_section.webp";
 import img_4_gallery from "../../assets/img_16_gallery_section.webp";
@@ -44,7 +42,7 @@ export default function GallerySectionEventosCorporativos() {
                 <div className="img_content_gallery_section_eventos_corporativos flex flex-col gap-y-4">
                     <div className="row_1_content_gallery_section_eventos_corporativos flex justify-evenly items-center gap-4">
                         <video autoPlay muted loop className="rounded-lg bg-[#000] md:w-[728px] md:h-[365px]" style={{ boxShadow: "0px 2px 10px #0003" }}>
-                            <source src={video1} type="video/mp4" />
+                            <source src={"http://212.56.37.24/connect_2025_eventos_corporativos.mp4"} type="video/mp4" />
                         </video>
                         <img src={img_2_gallery} alt="Image Galery 2" />
                     </div>
