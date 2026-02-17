@@ -5,34 +5,29 @@ import img_corporate from "../../assets/img_evn_coorp_section.png";
 export default function CorporateSectionHome() {
     return (
         <section
-            className="corporate_section_home relative"
+            className="corporate_section_home relative flex flex-col-reverse md:flex-row justify-center items-center gap-10 py-20 px-5 md:px-20"
             id="corporate_section_home"
             style={{
                 backgroundColor: "#FFF",
                 width: "100%",
                 minHeight: "775px",
                 boxSizing: "border-box",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center"
             }}
         >
-            <img className="decoration_1_corporate_section_home absolute bottom-[5%] left-0 -rotate-y-[180deg]" src={circle_1} alt="Decoración Web Site Event Clap" />
+            <img className="decoration_1_corporate_section_home hidden md:block absolute bottom-[5%] left-0 -rotate-y-[180deg]" src={circle_1} alt="Decoración Web Site Event Clap" />
 
             <div
                 style={{
-                    width: "38.5%",
                     position: "relative",
                 }}
-                className="img_corporate_section_home flex justify-start align-center "
+                className="img_corporate_section_home flex justify-start align-center w-full md:w-[38.5%]"
             >
-                <img src={img_corporate} style={{ position: "relative", width: "80%", height: "auto", minWidth: "500px" }} alt="Pareja feliz celebrando eventos con EventClap" />
+                <img className="relative w-[100%] md:w-[80%] h-auto md:min-w-[500px] z-100" src={img_corporate} alt="Eventos corporativos con EventClap" />
 
             </div>
             <div
-                className="info_corporate_section_home"
+                className="info_corporate_section_home w-full md:w-[38.5%]"
                 style={{
-                    width: "38.5%",
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "flex-end",
@@ -40,10 +35,10 @@ export default function CorporateSectionHome() {
                     gap: "30px",
                 }}
             >
-                <h2 className="title_info_corporate_section_home font-normal text-[40px] text-[#390447] uppercase">
+                <h2 className="title_info_corporate_section_home font-normal text-[40px] text-[#390447] text-center md:text-right uppercase">
                     <span className="font-bold text-[#390447]">Eventos</span> Corporativos
                 </h2>
-                <p className="description_info_corporate_section_home text-[22px] text-right" style={{ width: "85%" }}>
+                <p className="description_info_corporate_section_home text-[22px] w-full text-center md:text-right md:w-[85%]">
                     <span className="font-bold">Experiencias estratégicas</span> 
                     <br/>que impulsan equipos,
                     <br/>marcas y comunidades.
@@ -59,11 +54,11 @@ export default function CorporateSectionHome() {
                         borderRadius: "25px",
                         boxShadow: "2px 2px 6px #0008",
                     }}
-                    className="cta_info_corporate_section_home cursor-pointer bg-[#9F1A91] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff] hover:text-[#AD0569]">
+                    className="cta_info_corporate_section_home self-center md:self-end cursor-pointer bg-[#9F1A91] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff] hover:text-[#AD0569]">
                     Quiero un evento corporativo
                 </button>
             </div>
-            <img className="decoration_2_corporate_section_home absolute top-[25%] right-0 rotate-y-[180deg] rotate-x-[180deg]" src={circle_3} alt="Decoración Web Site Event Clap" />
+            <img className="decoration_2_corporate_section_home w-[70px] md:w-auto absolute bottom-[15%] md:bottom-0 md:top-[25%] right-0 rotate-y-[180deg] rotate-x-[180deg]" src={circle_3} alt="Decoración Web Site Event Clap" />
 
         </section>
     )

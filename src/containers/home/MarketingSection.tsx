@@ -18,43 +18,32 @@ export default function MarketingSectionHome() {
                 paddingBottom:"5rem"
             }}
         >
-            <img className="decoration_1_marketing_section_home absolute top-[10%] left-0 -rotate-y-[180deg]" src={circle_1} alt="Decoración Web Site Event Clap" />
+            <img className="decoration_1_marketing_section_home absolute bottom-[55%] w-[100px] md:w-auto z-10 md:bottom-0 md:top-[10%] left-0 -rotate-y-[180deg]" src={circle_1} alt="Decoración Web Site Event Clap" />
 
-            <div className="container_1_marketing_section_home" style={{
+            <div className="container_1_marketing_section_home flex flex-col-reverse md:flex-row justify-center items-center mb-10 md:mb-0" style={{
                 width: "100%",
                 minHeight: "775px",
                 boxSizing: "border-box",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center"
             }}>
                 <div
                     style={{
-                        width: "38.5%",
                         position: "relative",
                     }}
-                    className="img_marketing_section_home flex justify-start align-center "
+                    className="img_marketing_section_home flex justify-center md:justify-start align-center md:w-[38.5%] w-[80%]"
                 >
-                    <img src={img_marketing} style={{ position: "relative", width: "80%", height: "auto", minWidth: "500px" }} alt="Marketing digital de la mano de EventClap" />
+                    <img src={img_marketing} className="relative w-[100%] md:w-[70%] h-auto md:min-w-[500px]"  alt="Marketing digital de la mano de EventClap" />
 
                 </div>
                 <div
-                    className="info_marketing_section_home"
-                    style={{
-                        width: "38.5%",
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "flex-end",
-                        justifyContent: "space-evenly",
-                        gap: "30px",
-                    }}
+                    className="info_marketing_section_home w-[100%] md:w-[38.5%] flex flex-col justify-start align-center gap-4 my-10"
+                    
                 >
-                    <h2 className="title_info_marketing_section_home font-normal text-[45px] text-[#390447] text-right">
+                    <h2 className="title_info_marketing_section_home font-normal text-[30px] md:text-[45px] text-[#390447] text-center md:text-right">
                         <span className="font-bold text-[#390447]">Campañas de</span><br />
                         marketing emocional
                     </h2>
-                    <h4 className="font-bold text-[26px]">Producción 4.0</h4>
-                    <p className="description_info_marketing_section_home text-[26px] text-right" style={{ width: "85%" }}>
+                    <h4 className="font-bold text-[20px] md:text-[26px] text-center md:text-right">Producción 4.0</h4>
+                    <p className="description_info_marketing_section_home px-5 md:px-[0px] text-[20px] md:text-[26px] text-center md:text-right w-full">
                         Sonido, video, iluminación, escenografía
                         digital y streaming profesional.
                     </p>
@@ -69,29 +58,25 @@ export default function MarketingSectionHome() {
                             borderRadius: "25px",
                             boxShadow: "2px 2px 6px #0008",
                         }}
-                        className="cta_info_marketing_section_home cursor-pointer bg-[#9F1A91] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff] hover:text-[#AD0569]">
+                        className="cta_info_marketing_section_home cursor-pointer bg-[#9F1A91] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff] hover:text-[#AD0569] px-4 w-[80%] md:w-[60%] text-center self-center md:self-end">
                         Necesito producción técnica
                     </button>
                 </div>
             </div>
-            <div className="container_2_marketing_section_home" style={{
+            <div className="container_2_marketing_section_home flex flex-col justify-start items-center" style={{
                 width: "100%",
                 minHeight: "400px",
                 boxSizing: "border-box",
-                display: "flex",
-                justifyContent: "flex-start",
-                alignItems: "center",
                 gap: "30px",
-                flexDirection: "column",
             }}>
-                <h3 className="second_subtitle_marketing_section_home relative z-[10] uppercase text-[45px] text-white font-semibold uppercase bg-[#390447] w-[55%] text-center rounded-[35px] shadow-lg">
+                <h3 className="second_subtitle_marketing_section_home relative z-[10] uppercase text-[30px] md:text-[45px] text-white font-semibold uppercase bg-[#390447] w-[90%] md:w-[55%] text-center rounded-[35px] shadow-lg">
                     nuestra promesa
                 </h3>
-                <h4 className="relative border border-[#D6769A] -top-10 z-[1] min-w-[900px] w-[56%] rounded-lg flex items-center justify-center gap-3 text-[40px] font-normal text-[#390447] py-[10px]">
-                    Experiencias Diseñadas
-                    <img src={para_sentirse} alt="para sentirse" className="text_complemet_marketing_section_home" />
+                <h4 className="relative flex flex-col md:flex-row border border-[#D6769A] -top-10 z-[1] md:min-w-[900px] w-[96%] rounded-lg flex items-center justify-center gap-3 text-[40px] font-normal text-[#390447] text-center py-[10px]">
+                    <span className="font-bold md:font-medium">Experiencias <br className="md:hidden"/> Diseñadas</span>
+                    <img src={para_sentirse} alt="para sentirse" className="text_complemet_marketing_section_home w-[70%] md:w-auto" />
                 </h4>
-                <div className="box_cards_marketing_section_home flex justify-center gap-15 mt-5">
+                <div className="box_cards_marketing_section_home flex flex-col md:flex-row justify-center gap-15 mt-5">
                     <div className="relative card_1_marketing_section_home flex flex-col justify-center items-center py-6 px-12 bg-[#FAF5FC] rounded-md" style={{ boxShadow: "2px 2px 8px #0003" }}>
                         <img src={icon1} className="absolute top-[-35%]" alt="Decoración" />
                         <p className="text_card_marketing_section_home text-center text-[#390447] font-semibold">Tecnología 4.0</p>
@@ -115,7 +100,7 @@ export default function MarketingSectionHome() {
                     </div>
                 </div>
             </div>
-            <img className="decoration_2_marketing_section_home absolute top-[25%] right-0 rotate-y-[180deg] rotate-x-[180deg]" src={circle_4} alt="Decoración Web Site Event Clap" />
+            <img className="decoration_2_marketing_section_home absolute w-[45px] top-[5%] md:w-auto md:top-[25%] right-0 rotate-y-[180deg] rotate-x-[180deg]" src={circle_4} alt="Decoración Web Site Event Clap" />
 
         </section>
     )

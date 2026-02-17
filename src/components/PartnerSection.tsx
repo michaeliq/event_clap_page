@@ -43,8 +43,8 @@ export default function PartnerSection() {
                 gap: "5rem"
             }}
         >
-            <div className="header_container_partner_section flex justify-center items-center gap-5 mb-5">
-                <h2 className="title_partner_section uppercase text-[45px] text-[#390447] font-semibold">
+            <div className="header_container_partner_section flex justify-center items-center md:gap-5 gap-2 mb-1 px-5 text-center ">
+                <h2 className="title_partner_section uppercase text-[30px] md:text-[45px] text-[#390447] font-semibold">
                     Empresas que apuestan <span className="text-[#AD0569]">por la innovación</span>
                 </h2>
             </div>

@@ -6,33 +6,24 @@ import bodas_celebraciones from "../../assets/Bodas & Celebraciones.webp"
 export default function WeddingSectionHome() {
     return (
         <section
-            className="wedding_section_home relative"
+            className="wedding_section_home relative flex flex-col md:flex-row justify-center items-center gap-10 py-20 px-5 md:px-20"
             id="wedding_section_home"
             style={{
                 backgroundColor: "#F8F1F7",
                 width: "100%",
                 minHeight: "534px",
                 boxSizing: "border-box",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center"
             }}
         >
-            <img className="decoration_2_wedding_section_home absolute -top-40 -left-15" src={circle_4} alt="Decoración Web Site Event Clap" />
+            <img className="decoration_2_wedding_section_home absolute w-[100px] md:w-auto -top-35 md:-top-40 -left-15" src={circle_4} alt="Decoración Web Site Event Clap" />
             <div
-                className="info_wedding_section_home"
+            className="info_wedding_section_home w-full md:w-[38.5%] flex flex-col items-center md:items-start justify-center md:justify-evenly gap-6"
                 style={{
-                    width: "38.5%",
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "flex-start",
-                    justifyContent: "space-evenly",
-                    gap: "20px",
                 }}
             >
                 <img className="subtitle_info_wedding_section_home " src={bodas_celebraciones} alt="Bodas y celebraciones"/>
 
-                <p className="description_info_wedding_section_home text-[22px]" style={{ width: "85%" }}>
+                <p className="description_info_wedding_section_home text-[22px] text-center md:text-left">
                     <span className="font-bold">Historias que se viven con los cinco sentidos.</span> Diseño emocional, producción total y acompañamiento real.
                 </p>
                 <button
@@ -52,15 +43,14 @@ export default function WeddingSectionHome() {
             </div>
             <div
                 style={{
-                    width: "38.5%",
                     position: "relative",
                 }}
-                className="img_wedding_section_home flex justify-end align-center "
+                className="img_wedding_section_home flex justify-end align-center w-full md:w-[38.5%]"
             >
-                <img src={img_bodas} style={{position:"relative", width:"80%",height:"auto",minWidth:"500px"}} alt="Pareja feliz celebrando eventos con EventClap" />
+                <img src={img_bodas} className="relative w-[100%] md:w-[80%] h-auto md:min-w-[500px] z-100" alt="Pareja feliz celebrando eventos con EventClap" />
 
             </div>
-            <img className="decoration_1_wedding_section_home absolute bottom-0 right-0 " src={circle_1} alt="Decoración Web Site Event Clap" />
+            <img className="decoration_1_wedding_section_home absolute w-[130px] md:w-auto z-100 md:z-0 bottom-30 md:bottom-0 right-0 " src={circle_1} alt="Decoración Web Site Event Clap" />
         </section>
     )
 }

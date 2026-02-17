@@ -6,7 +6,7 @@ import btl from "../../assets/img_act_btl_section.webp"
 export default function BTLSectionHome() {
     return (
         <section
-            className="btl_section_home relative"
+            className="btl_section_home relative flex flex-col md:flex-row justify-center items-center gap-10 py-20 px-5 md:px-20"
             id="btl_section_home"
             style={{
                 backgroundColor:"#3C074A",
@@ -14,27 +14,19 @@ export default function BTLSectionHome() {
                 width: "100%",
                 minHeight: "535px",
                 boxSizing: "border-box",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center"
             }}
         >
-            <img className="decoration_2_btl_section_home absolute top-17 left-0" src={circle_3} alt="Decoración Web Site Event Clap" />
+            <img className="decoration_2_btl_section_home absolute top-17 md:top-[20%] left-0 w-[45px] md:w-auto" src={circle_3} alt="Decoración Web Site Event Clap" />
             <div
-                className="info_btl_section_home"
+                className="info_btl_section_home w-full md:w-[38.5%] flex flex-col items-center md:items-start justify-center gap-6"
                 style={{
-                    width: "38.5%",
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "flex-start",
-                    justifyContent: "space-evenly",
-                    gap: "20px",
+                    
                 }}
             >
-                <h2 className="title_info_we_section_home font-bold text-[50px] text-white uppercase">
+                <h2 className="title_info_we_section_home font-bold text-[30px] md:text-[50px] text-center md:text-left text-white uppercase">
                     Activaciones BTL
                 </h2>
-                <p className="description_info_btl_section_home text-[22px] text-white" style={{ width: "85%" }}>
+                <p className="description_info_btl_section_home text-[22px] text-center md:text-left text-white" style={{ width: "85%" }}>
                     <span className="font-bold">Creatividad que se viraliza.</span> 
                     <br/>Campañas sensoriales, 
                     <br/>temáticas y con propósito.
@@ -56,12 +48,11 @@ export default function BTLSectionHome() {
             </div>
             <div
                 style={{
-                    width: "38.5%",
                     position: "relative",
                 }}
-                className="img_btl_section_home flex justify-end align-center "
+                className="img_btl_section_home flex justify-end align-center w-full md:w-[38.5%]"
             >
-                <img src={btl} style={{position:"relative", width:"80%",height:"auto",minWidth:"500px",scale:"1.2", zIndex:"100"}} alt="Pareja feliz celebrando eventos con EventClap" />
+                <img src={btl} alt="Pareja feliz celebrando eventos con EventClap" className="relative w-[100%] md:w-[80%] h-auto md:min-w-[500px] z-100" />
 
             </div>
         </section>

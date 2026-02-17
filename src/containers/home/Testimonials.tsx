@@ -32,7 +32,7 @@ export default function TestimonialsSectionHome() {
     return (
         <section
             className="testimonials_section relative"
-            id="testimonials_section"
+            id="testimonials_section relative"
             style={{
                 backgroundColor: "#3C074A",
                 background: "linear-gradient(90deg,rgba(60, 7, 74, 1) 36%, rgba(146, 52, 233, 1) 100%)",
@@ -50,9 +50,9 @@ export default function TestimonialsSectionHome() {
             <h2 className="title_testimonials_section font-bold text-[40px] text-white uppercase">
                 testimonios
             </h2>
-            <div className="container_cards_testimonials_section w-[80%] flex justify-evenly">
+            <div className="container_cards_testimonials_section relative w-auto left-0 flex justify-start items-center gap-10 overflow-x-auto md:overflow-x-hidden">
                 {testimonial_data?.map((item, key) => (
-                    <div key={key + item.title} className="card_testimonials_section max-w-[380px] py-5 px-5 bg-[#FAF5FC] rounded-lg">
+                    <div key={key + item.title} className="card_testimonials_section md:max-w-[380px] w-[380px] py-5 px-5 bg-[#FAF5FC] rounded-lg">
                         <div className="card_header_testimonials_section mb-5 h-15 flex items-center justify-start gap-5">
                             <div className="w-[59px] h-[59px] bg-[#886891] text-[#fff] font-bold flex items-center justify-center rounded-full">
                                 {item?.char}
