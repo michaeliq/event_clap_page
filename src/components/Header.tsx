@@ -39,7 +39,7 @@ export default function Header() {
                 <ul className={[
                     " menu_list  md:flex  md:flex-row  md:justify-end md:w-full md:flex-1 md:column-gap-[40px] md:relative md:top-0 md:left-0 md:bg-transparent md:h-[100%]", 
                     "w-[100%] flex  flex-col  items-center justify-center gap-10 h-screen w-full bg-[#390447] fixed left-0"
-                 ].join(" ").concat(isMenuOpen ? " top-0" : " top-[-100%]")}
+                 ].join(" ").concat(isMenuOpen ? " top-0" : " top-[-110%]")}
                     >
                     <Link  onClick={() => setIsMenuOpen(false)} to={"/#we_section_home"}><li className="font-bold uppercase text-white">Nosotros</li></Link>
                     <Link  onClick={() => setIsMenuOpen(false)} to={"/#services_section_home"}><li className="font-bold uppercase text-white">Servicios</li></Link>
