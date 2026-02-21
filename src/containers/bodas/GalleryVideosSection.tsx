@@ -34,13 +34,13 @@ export default function GalleryVideosSectionBodas() {
         >
             <div className="header_container_gallery_videos_section_bodas bg-[#390447] w-[77%] rounded-[35px] py-3 flex justify-center items-center gap-5 mb-5" style={{boxShadow:"0px 2px 10px #000d"}}>
                 <img src={icon_start} alt="start image" />
-                <h2 className="title_gallery_videos_section_bodas uppercase text-[50px] leading-[35px] text-white font-normal font-Barrow font-Barrow">
+                <h2 className="title_gallery_videos_section_bodas uppercase text-center text-[20px] md:text-[50px] leading-[35px] text-white font-normal font-Barrow font-Barrow">
                     premiados por quines
                 </h2>
                 <img src={icon_start} alt="start image" />
             </div>
-            <img src={vivieron_la_experiencia} alt="Vivieron la experiencia" />
-            <div className="card_container_gallery_videos_section_bodas flex gap-10">
+            <img src={vivieron_la_experiencia} className="w-[80%] md:w-auto" alt="Vivieron la experiencia" />
+            <div className="card_container_gallery_videos_section_bodas flex gap-10 overflow-scroll w-[80%] md:w-auto md:overflow-auto">
                 { videos_data?.map((video,key)=>(
                    <video key={key} autoPlay muted loop className="w-[350px] h-[412px] rounded-lg bg-[#000]" style={{boxShadow:"0px 2px 10px #0003"}}>
                         <source src={video.link} type="video/mp4" />

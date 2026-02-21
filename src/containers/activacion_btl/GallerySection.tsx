@@ -6,6 +6,14 @@ import img_5_gallery from "../../assets/img_24_gallery_section.webp";
 import img_6_gallery from "../../assets/img_25_gallery_section.webp";
 import img_7_gallery from "../../assets/img_26_gallery_section.webp";
 
+const images = [
+    img_2_gallery,
+    img_3_gallery,
+    img_4_gallery,
+    img_5_gallery,
+    img_6_gallery,
+]
+
 export default function GallerySection() {
     return (
         <section className="gallery_section" id="gallery_section" style={{
@@ -40,7 +48,21 @@ export default function GallerySection() {
                     </h2>
                     <div className="line w-[82px] h-[4px] rounded-[4px] bg-[#720742] relative bottom-[15px]"></div>
                 </div>
-                <div className="img_content_gallery_section flex flex-col gap-y-4">
+                {/** Mobile section */}
+                <div className="md:hidden flex flex-col gap-y-4">
+                    <div className="row_1_content_gallery_section_home flex justify-evenly items-center gap-4">
+                        <img src={rectangle_gray} alt="Image Galery 1" />
+                    </div>
+                    <div className="flex gap-4 overflow-scroll">
+                        {images?.map((item,index)=>(
+                            <img key={index} src={item} className="w-[160px] h-[160px]" alt={`Image Galery ${index+1}`} />
+                        ))}
+                    </div>
+                    <img  src={img_7_gallery}  alt="Image Galery 7" />
+                </div>
+
+                {/** End Mobile Section */}
+                <div className="hidden img_content_gallery_section_home md:flex flex-col gap-y-4">
                     <div className="row_1_content_gallery_section flex justify-evenly items-center gap-4">
                         <img src={rectangle_gray} alt="Image Galery 1" />
                         <img src={img_2_gallery} alt="Image Galery 2" />

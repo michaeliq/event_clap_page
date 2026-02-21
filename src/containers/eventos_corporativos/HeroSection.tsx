@@ -3,7 +3,7 @@ import image_banner from "../../assets/banner_hero_event_corp.webp"
 
 export default function HeroSectionEventosCorporativos() {
     return (
-        <section className="hero_section_eventos_corporativos" style={{
+        <section className="hero_section_eventos_corporativos flex flex-col md:flex-row justify-end md:justify-center items-center gap-10 py-20 px-5" style={{
             width: "100vw",
             height: "auto",
             minHeight: "100vh",
@@ -12,9 +12,6 @@ export default function HeroSectionEventosCorporativos() {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
             borderBottom: "7px solid #F08844"
         }}>
             <Wave/>
@@ -28,13 +25,13 @@ export default function HeroSectionEventosCorporativos() {
                     alignItems: "start",
                 }}
             >
-                <h1 className="title_info_section_eventos_corporativos w-[50%] text-[40px] font-bold leading-12 text-white">
+                <h1 className="title_info_section_eventos_corporativos text-shadow-lg md:w-[50%] text-[40px] font-bold leading-12 text-white">
                     Eventos que mueven marcas, ideas y personas.
                 </h1>
-                <h4 className="subtitle_info_section_eventos_corporativos w-[40%] text-[26px] font-light leading-8 text-white">
+                <h4 className="subtitle_info_section_eventos_corporativos text-shadow-lg md:w-[40%] text-[26px] font-light leading-8 text-white">
                     Producción Estratégica + Storytelling + Tecnología Híbrida.
                 </h4>
-                <button className="cta_info_section_eventos_corporativos cursor-pointer bg-[#BA1B56] transition duration-300 ease-in-out text-white hover:bg-[#fff] hover:text-[#AD0569]"
+                <button className="cta_info_section_eventos_corporativos cursor-pointer bg-[#BA1B56] transition duration-300 ease-in-out text-white hover:bg-[#fff] hover:text-[#AD0569] text-[15px] md:text[18px]"
                     style={{
                         display: "flex",
                         justifyContent: "center",

@@ -3,7 +3,7 @@ import image_banner from "../../assets/bg_hero_bodas.webp"
 
 export default function HeroSectionBodas() {
     return (
-        <section className="hero_section_bodas" style={{
+        <section className="hero_section_bodas flex flex-col md:flex-row justify-end md:justify-center items-center gap-10 py-20 px-5" style={{
             width: "100vw",
             height: "auto",
             position:"relative",
@@ -12,9 +12,6 @@ export default function HeroSectionBodas() {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
             borderBottom: "7px solid #F08844"
         }}>
             <Wave/>
@@ -28,10 +25,10 @@ export default function HeroSectionBodas() {
                     alignItems:"start",
                 }}
             >
-                <h1 className="title_info_section_bodas w-100 text-[40px] font-bold leading-12 text-white">
+                <h1 className="title_info_section_bodas md:w-[50%] text-shadow-lg  text-[30px] text-[40px] font-bold leading-12 text-white">
                     Tu historia merece un escenario inolvidable.
                 </h1>
-                <h4 className="subtitle_info_section_bodas w-85 text-[26px] font-light leading-8 text-white">
+                <h4 className="subtitle_info_section_bodas w-85 text-shadow-lg text-[26px] font-light leading-8 text-white">
                     Diseñamos bodas que se sienten… 
                 </h4>
                 <button className="cta_info_section_bodas cursor-pointer bg-[#BA1B56] transition duration-300 ease-in-out text-white hover:bg-[#fff] hover:text-[#AD0569]"

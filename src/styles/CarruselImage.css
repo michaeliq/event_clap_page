@@ -26,7 +26,6 @@
 }
 
 .carousel-slide img {
-  width: 60%;
   max-width: 300px;
   display: block;
   object-fit: cover;

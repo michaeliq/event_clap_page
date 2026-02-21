@@ -4,6 +4,8 @@ import { useBreakpoint } from "src/hooks/useBreakpoint";
 
 interface ImageCarouselProps {
   images: string[];
+  width:string | false;
+  height:string | false;
   visibleCount?: number;
   step?: number;
   autoPlay?: boolean;
@@ -17,6 +19,8 @@ interface ImageCarouselProps {
 
 const ImageCarousel: React.FC<ImageCarouselProps> = ({
   images,
+  width = "auto",
+  height = "auto",
   visibleCount = 1,
   step = 1,
   autoPlay = false,

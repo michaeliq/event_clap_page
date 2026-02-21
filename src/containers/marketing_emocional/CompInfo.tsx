@@ -22,13 +22,13 @@ export default function CompInfoMarkeringEmocional() {
             }}>
                 <div className=" flex justify-center items-center gap-5 my-5">
                     <div className="line w-[82px] h-[4px] rounded-[4px] bg-[#720742] relative"></div>
-                    <h2 className=" text-[45px] text-[#390447] text-center leading-[35px] font-semibold">
+                    <h2 className="text-[30px] md:text-[45px] text-[#390447] text-center leading-[35px] font-semibold">
                         Tecnología que <span className="text-[#390447] font-light">potencia la experiencia.</span>
                     </h2>
                     <div className="line w-[82px] h-[4px] rounded-[4px] bg-[#720742] relative"></div>
                 </div>
                 <div className="flex justify-center items-center gap-5 my-2">
-                    <p className="text-[22px] font-Barrow text-center" style={{ width: "80%" }}>
+                    <p className="mb-4 text-[22px] font-Barrow text-center md:w-[80%]" >
                         Potencializamos tu evento con producción técnica profesional y soluciones 4.0 conectadas, inteligentes y memorables.
                     </p>
                 </div>

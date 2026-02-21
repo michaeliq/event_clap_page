@@ -4,6 +4,7 @@
   --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-Barrow: "Barlow Condensed", sans-serif;
+  --bk-menu: url("../assets/bk_menu.png")
 }
 
 html,

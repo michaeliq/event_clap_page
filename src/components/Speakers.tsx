@@ -46,7 +46,7 @@ export default function Speakers() {
             boxSizing: "border-box",
             position: "relative",
         }}>
-            <img className="rotate-y-180 absolute top-[129px] h-[60%] left-0" src={circle_1} alt="Decoración Web Site Event Clap" />
+            <img className="rotate-y-180 absolute top-[129px] md:h-[60%] left-0 w-[100px] md:w-auto" src={circle_1} alt="Decoración Web Site Event Clap" />
             <div className="container_speakers" style={{
                 width: "77%",
                 minHeight: "60vh",
@@ -58,14 +58,14 @@ export default function Speakers() {
             }}>
                 <div className="header_speakers flex justify-center items-center gap-5 my-5">
                     <div className="line w-[82px] h-[4px] rounded-[4px] bg-[#720742] relative"></div>
-                    <h2 className="title_speakers text-[45px] text-[#390447] text-center leading-[35px] font-bold">
+                    <h2 className="title_speakers text-[30px] md:text-[45px] text-[#390447] text-center md:leading-[35px] font-bold">
                         NUESTROS <span className="text-[#AD0569]">SPEAKERS</span>
                     </h2>
                     <div className="line w-[82px] h-[4px] rounded-[4px] bg-[#720742] relative"></div>
                 </div>
-                <div className="card_container_speakers w-full flex flex-row justify-center items-between mt-10 gap-[5%] mb-10">
+                <div className="card_container_speakers w-full flex flex-col md:flex-row justify-center items-between mt-10 gap-[5%] mb-10">
                     {speakersData.map((speaker, index) => (
-                        <div key={index} className='flex flex-col items-center justify-center'>
+                        <div key={index} className='flex flex-col items-center justify-center mb-10 md:mb-0'>
                             <img src={speaker.image} alt={speaker.name} className='sm:w-[100px] sm:h-[100px] md:w-[200px] md:h-[200px] md:min-w-[170px] md:min-h-[170px] rounded-[50%] border-[1.5px] border-t-[#3C074A] border-r-[#3C074A] border-l-[#9234E9] border-b-[#9234E9] p-1' />
                             <h4 className="card_name_speakers font-semibold text-[20px] text-center text-[#390447] mt-3">
                                 {speaker.name}
@@ -78,7 +78,7 @@ export default function Speakers() {
 
                 </div>
                 <div className="info_container_speakers flex flex-col justify-center items-center relative border border-[#AD0569] rounded-[35px] py-15 px-10 mt-10">
-                    <h2 className="info_title_speakers absolute bg-white px-5 -top-10 text-[36px] text-[#AD0569] text-center leading-[45px] font-semibold">
+                    <h2 className="info_title_speakers absolute bg-white px-5 -top-10 text-[20px] md:text-[36px] text-[#AD0569] text-center md:leading-[45px] font-semibold">
                         <span className="text-[#390447]">Expertos que convierten</span><br />
                         conocimiento en resultados.
                     </h2>
@@ -102,7 +102,7 @@ export default function Speakers() {
                 </div>
 
             </div>
-            <img className="absolute top-[129px] h-[60%] right-0" src={circle_1} alt="Decoración Web Site Event Clap" />
+            <img className="absolute bottom-[30%] md:top-[129px] md:h-[60%] right-0 w-[80px] md:w-auto" src={circle_1} alt="Decoración Web Site Event Clap" />
 
         </section>
     )

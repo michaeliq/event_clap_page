@@ -54,6 +54,8 @@ export default function PartnerSection() {
                 }}
                 className="logo_container_partner_section w-full py-5 flex justify-center items-center gap-[5%] mb-3">
                 <ImageCarousel
+                    width={""}
+                    height={""}
                     images={images}
                     visibleCount={6}
                     step={1}
