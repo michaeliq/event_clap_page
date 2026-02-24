@@ -30,7 +30,7 @@ export default function Header() {
                 flex: 1
             }}>
                 <Link to={"/"}>
-                    <img src={logo} className="w-[100%] md:max-w-[450px] md:w-[50%] md:hidden" alt="Logo Event Clap" />
+                    <img src={logo} className="w-[100%] md:max-w-[450px] md:w-[50%]" alt="Logo Event Clap" />
                 </Link>
             </div>
             <nav className="menu_container" style={{
@@ -44,7 +44,7 @@ export default function Header() {
                 ].join(" ").concat(isMenuOpen ? " top-0" : " top-[-110%]")}
                 >
                     <Link to={"/"}>
-                        <img src={logo_b} className="w-[100%] max-w-[450px] md:w-[50%]" alt="Logo Event Clap" />
+                        <img src={logo_b} className="md:hidden w-[100%] max-w-[450px] md:w-[50%]" alt="Logo Event Clap" />
                     </Link>
                     <Link className="w-[60%] text-center md:w-auto bg-[#fff] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893] md:border-0 md:bg-transparent md:hover:text-[#390447]" onClick={() => setIsMenuOpen(false)} to={"/#we_section_home"}><li className="font-bold uppercase text-[#390447] md:text-white md:hover:text-[#390447]">Nosotros</li></Link>
                     <Link className="w-[60%] text-center md:w-auto bg-[#fff] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893] md:border-0 md:bg-transparent md:hover:text-[#390447]" onClick={() => setIsMenuOpen(false)} to={"/#services_section_home"}><li className="font-bold uppercase text-[#390447] md:text-white md:hover:text-[#390447]">Servicios</li></Link>
