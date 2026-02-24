@@ -30,7 +30,7 @@ export default function Header() {
                 flex: 1
             }}>
                 <Link to={"/"}>
-                    <img src={logo} className="w-[100%] md:max-w-[450px] md:w-[50%]" alt="Logo Event Clap" />
+                    <img src={logo} className="w-[100%] md:max-w-[450px] md:w-[50%] md:hidden" alt="Logo Event Clap" />
                 </Link>
             </div>
             <nav className="menu_container" style={{
