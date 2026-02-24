@@ -7,7 +7,7 @@ import Wave from "src/components/Wave"
 export default function TravelSectionHome() {
     return (
         <section
-            className="travel_section_home relative flex flex-col md:flex-row justify-center gap-5 items-center py-5 px-5 md:px-20"
+            className="travel_section_home relative md:overflow-hidden flex flex-col md:flex-row justify-center gap-5 md:gap-0 items-center py-5 px-5 md:px-20"
             id="travel_section_home"
             style={{
                 backgroundColor: "#3C074A",
@@ -19,13 +19,13 @@ export default function TravelSectionHome() {
         >
             <Wave/>
             <div
-                className="info_travel_section_home w-full md:w-[38.5%] flex flex-col items-center md:items-start justify-center gap-6"
+                className="info_travel_section_home w-full md:w-[38.5%] flex flex-col items-center md:items-start justify-center gap-2"
             >
                 <h2 className="title_info_we_section_home font-bold text-[30px] leading-[40px] md:text-[40px] text-center md:text-left text-white uppercase">
                     Rutas & Experiencas
                 </h2>
-                <img src={colombia} alt="Colombia" className="travel_img_title" />
-                <h4 className="text-center font-semibold text-white text-[25px] md:text-left">Viajar también es vivir una experiencia con alma.</h4>
+                <img src={colombia} alt="Colombia" className="travel_img_title w-[70%] my-0" />
+                <h4 className="text-center font-semibold text-white text-[25px] md:text-left text-shadow-lg">Viajar también es vivir una experiencia con alma.</h4>
                 <p className="description_info_travel_section_home text-[22px] text-center md:text-left text-white font-Barrow" style={{ width: "85%" }}>
                     Mucho más que turismo. Diseñamos recorridos que se sienten, se disfrutan y se recuerdan.
                 </p>
