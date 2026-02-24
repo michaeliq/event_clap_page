@@ -2,10 +2,10 @@
 
 import { useState } from "react"
 import { Link } from "react-router"
-import logo from "../assets/logo.webp"
+import logo from "../assets/logo_header.png"
+import logo_b from "../assets/logo.webp"
 import menuIcon from "../assets/menu_open_icon.png"
 import menuCloseIcon from "../assets/menu_close_icon.png"
-import menu_bk from "../assets/bk_menu.png"
 
 export default function Header() {
 
@@ -30,7 +30,7 @@ export default function Header() {
                 flex: 1
             }}>
                 <Link to={"/"}>
-                    <img src={logo} className="w-[100%] max-w-[450px] md:w-[50%]" alt="Logo Event Clap" />
+                    <img src={logo} className="w-[100%] md:max-w-[450px] md:w-[50%]" alt="Logo Event Clap" />
                 </Link>
             </div>
             <nav className="menu_container" style={{
@@ -41,13 +41,16 @@ export default function Header() {
                     "menu_list  md:flex  md:flex-row  md:justify-end md:w-full md:flex-1 md:column-gap-[40px] md:relative md:top-0 md:left-0  md:h-[100%]",
                     `bg-[url('../assets/bk_menu.png')] bg-no-repeat bg-cover md:bg-[url("")]`,
                     "w-[100%] flex  flex-col  items-center justify-center gap-10 h-screen w-full  fixed left-0"
-                 ].join(" ").concat(isMenuOpen ? " top-0" : " top-[-110%]")}
-                    >
-                    <Link className="w-[60%] text-center md:w-auto bg-[#fff] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893] md:border-0 md:bg-transparent md:hover:text-[#390447]"  onClick={() => setIsMenuOpen(false)} to={"/#we_section_home"}><li className="font-bold uppercase text-[#390447] md:text-white md:hover:text-[#390447]">Nosotros</li></Link>
-                    <Link className="w-[60%] text-center md:w-auto bg-[#fff] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893] md:border-0 md:bg-transparent md:hover:text-[#390447]"   onClick={() => setIsMenuOpen(false)} to={"/#services_section_home"}><li className="font-bold uppercase text-[#390447] md:text-white md:hover:text-[#390447]">Servicios</li></Link>
-                    <Link className="w-[60%] text-center md:w-auto bg-[#fff] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893] md:border-0 md:bg-transparent md:hover:text-[#390447]"   onClick={() => setIsMenuOpen(false)} to={"/bodas/#musica"}><li className="font-bold uppercase text-[#390447] md:text-white md:hover:text-[#390447]">Música</li></Link>
-                    <Link className="w-[60%] text-center md:w-auto bg-[#fff] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893] md:border-0 md:bg-transparent md:hover:text-[#390447]"   onClick={() => setIsMenuOpen(false)} to={"#gallery_section"}><li className="font-bold uppercase text-[#390447] md:text-white md:hover:text-[#390447]">Galería</li></Link>
-                    <Link   onClick={() => setIsMenuOpen(false)} className="w-[60%] text-center md:w-auto bg-[#700893] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893] mt-10 md:mt-0" to={"#contact_section"}><li className="font-bold uppercase">Contacto</li></Link>
+                ].join(" ").concat(isMenuOpen ? " top-0" : " top-[-110%]")}
+                >
+                    <Link to={"/"}>
+                        <img src={logo_b} className="w-[100%] max-w-[450px] md:w-[50%]" alt="Logo Event Clap" />
+                    </Link>
+                    <Link className="w-[60%] text-center md:w-auto bg-[#fff] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893] md:border-0 md:bg-transparent md:hover:text-[#390447]" onClick={() => setIsMenuOpen(false)} to={"/#we_section_home"}><li className="font-bold uppercase text-[#390447] md:text-white md:hover:text-[#390447]">Nosotros</li></Link>
+                    <Link className="w-[60%] text-center md:w-auto bg-[#fff] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893] md:border-0 md:bg-transparent md:hover:text-[#390447]" onClick={() => setIsMenuOpen(false)} to={"/#services_section_home"}><li className="font-bold uppercase text-[#390447] md:text-white md:hover:text-[#390447]">Servicios</li></Link>
+                    <Link className="w-[60%] text-center md:w-auto bg-[#fff] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893] md:border-0 md:bg-transparent md:hover:text-[#390447]" onClick={() => setIsMenuOpen(false)} to={"/bodas/#musica"}><li className="font-bold uppercase text-[#390447] md:text-white md:hover:text-[#390447]">Música</li></Link>
+                    <Link className="w-[60%] text-center md:w-auto bg-[#fff] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893] md:border-0 md:bg-transparent md:hover:text-[#390447]" onClick={() => setIsMenuOpen(false)} to={"#gallery_section"}><li className="font-bold uppercase text-[#390447] md:text-white md:hover:text-[#390447]">Galería</li></Link>
+                    <Link onClick={() => setIsMenuOpen(false)} className="w-[60%] text-center md:w-auto bg-[#700893] border border-white py-2 px-4 rounded-[25px] text-white hover:text-[#700893] hover:bg-[#fff] hover:border-[#700893] mt-10 md:mt-0" to={"#contact_section"}><li className="font-bold uppercase">Contacto</li></Link>
                 </ul>
             </nav>
             {!isMenuOpen && <img src={menuIcon} alt="Open Menu" className="md:hidden w-[30px] absolute top-[10px] right-[11.5%] cursor-pointer" onClick={() => setIsMenuOpen(true)} />}
