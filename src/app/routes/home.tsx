@@ -10,6 +10,9 @@ import MarketingSectionHome from "src/containers/home/MarketingSection";
 import TestimonialsSectionHome from "src/containers/home/Testimonials";
 import ContactSection from "src/components/Contact";
 import PartnerSection from "src/components/PartnerSection";
+import PromiseSection from "src/containers/home/PromiseSection";
+import TravelSectionHome from "src/containers/home/TravelSection";
+import LocationTravel from "src/components/LocationTravel";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -29,6 +32,9 @@ export default function Home() {
       <CorporateSectionHome/>
       <BTLSectionHome/>
       <MarketingSectionHome/>
+      <TravelSectionHome/>
+      <LocationTravel/>
+      <PromiseSection/>
       <TestimonialsSectionHome/>
       <PartnerSection/>
       <ContactSection/>
