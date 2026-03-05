@@ -5,7 +5,7 @@ import icon_instagram from "../assets/icon_instagram.webp";
 import icon_mail from "../assets/icon_mail.webp";
 import icon_whatsapp from "../assets/icon_whatsapp.webp";
 import icon_linkedin from "../assets/icon_linkedin.webp";
-import logo from "../assets/logo.webp";
+import logo from "../assets/logo_header.png";
 import juan_carlos_g from "../assets/juan carlos girlado.webp";
 
 export default function Footer(){
@@ -36,7 +36,7 @@ export default function Footer(){
                     <li className="link_social_footer font-Barrow text-[18px] md:text-[24px] text-white"><a href="https://www.linkedin.com/in/juan-carlos-giraldo-restrepo-78a06b90/"><img className="inline mr-2 w-[20px] md:w-[30px]" src={icon_linkedin} alt="Cuenta de Linkedin de Event Clap"/><span className="underline md:no-underline">Juan Carlos Giraldo Restrepo</span></a></li>
                 </ul>
                 <div className="container_logo_footer flex flex-col md:items-end justify-center items-center ">
-                    <img src={logo} alt="Logo Event Clap" className="logo_footer w-[80%] md:w-[100%]" />
+                    <img src={logo} alt="Logo Event Clap" className="logo_footer mb-5 md:mb-5 w-[80%] md:w-[100%]" />
                     <img src={juan_carlos_g} alt="Firma Juan C Giraldo" className="firma_footer w-[90%] md:w-[100%]" />
                 </div>
             </div> 

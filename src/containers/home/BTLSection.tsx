@@ -16,7 +16,7 @@ export default function BTLSectionHome() {
                 boxSizing: "border-box",
             }}
         >
-            <img className="decoration_2_btl_section_home absolute top-17 md:top-[20%] left-0 w-[45px] md:w-auto" src={circle_3} alt="Decoración Web Site Event Clap" />
+            <img className="decoration_2_btl_section_home absolute top-17 md:top-[20%] -left-2 w-[45px] md:w-auto" src={circle_3} alt="Decoración Web Site Event Clap" />
             <div
                 className="info_btl_section_home w-full md:w-[38.5%] flex flex-col items-center md:items-start justify-center gap-6"
                 style={{

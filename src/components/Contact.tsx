@@ -15,7 +15,7 @@ export default function ContactSection() {
                 paddingBottom:"5rem"
             }}
         >
-            <img className="decoration_1_contact_section w-[12%] md:w-[10%] absolute top-[10%] left-0" src={circle_3} alt="Decoración Web Site Event Clap" />
+            <img className="decoration_1_contact_section w-[12%] md:w-[10%] absolute top-[10%] -left-3" src={circle_3} alt="Decoración Web Site Event Clap" />
 
             <div className="container_1_contact_section flex flex-col md:flex-row justify-center items-center gap-10 md:gap-0" style={{
                 width: "100%",

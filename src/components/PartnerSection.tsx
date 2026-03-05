@@ -63,7 +63,7 @@ export default function PartnerSection() {
                     autoPlayInterval={3000}
                     responsive={{
                         mobile: {
-                            visibleCount: 2,
+                            visibleCount: 1,
                             step: 1,
                         },
                         tablet: {

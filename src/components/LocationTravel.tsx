@@ -41,7 +41,7 @@ export default function LocationTravel() {
             boxSizing: "border-box",
             position: "relative",
         }}>
-            <img className="rotate-y-180 absolute top-[129px] md:h-[60%] left-0 w-[70px] md:w-auto" src={circle_1} alt="Decoración Web Site Event Clap" />
+            <img className="rotate-y-180 absolute top-[129px] md:h-[60%] -left-3 w-[70px] md:w-auto" src={circle_1} alt="Decoración Web Site Event Clap" />
             <div className="container_location_travel" style={{
                 width: "77%",
                 minHeight: "60vh",
@@ -51,14 +51,14 @@ export default function LocationTravel() {
                 justifyContent: "flex-start",
                 alignItems: "center",
             }}>
-                <div className="header_location_travel flex justify-center items-center gap-5 my-5">
+                <div className="header_location_travel flex justify-center items-center gap-1 my-5">
                     <div className="line w-[82px] h-[4px] rounded-[4px] bg-[#720742] relative"></div>
                     <h2 className="title_location_travel text-[30px] md:text-[45px] w-max-conetent text-[#390447] text-center md:leading-[45px] font-bold">
                         Colombia se descubre <span className="text-[#AD0569]">con los sentidos</span>
                     </h2>
                     <div className="line w-[82px] h-[4px] rounded-[4px] bg-[#720742] relative"></div>
                 </div>
-                <p className="text-[#390447] text-center px-5 font-Barrow text-[24px]">
+                <p className="text-[#390447] text-center mt-10 px-4 font-Barrow text-[24px]">
                     La energía vibrante de sus ciudades, la magia colonial de sus pueblos y la grandeza natural de sus paisajes crean escenarios únicos para momentos memorables.
                     <br/>
                     <span className="font-bold">
