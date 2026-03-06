@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 import image_banner from "../../assets/img_orquesta_section_bodas.webp"
 import son_del_caribe from "../../assets/Son del Caribe.webp"
 import caribes_img from "../../assets/Son_Caribe_logo 1.webp"
@@ -59,6 +60,7 @@ export default function MaESectionBodas() {
                     <span className="font-bold">Transforma cada celebración en una experiencia vibrante.</span><br />
                     Un show en vivo que fusiona ritmos latinos, clásicos y urbanos en un formato crossover que conecta generaciones y mantiene la pista encendida de principio a fin.
                 </p>
+                <Link className="flex justify-center" to="https://wa.me/573188016709?Evento+con+Son+del+Caribe" target="_blank">
                 <button
                         style={{
                             display: "flex",
@@ -74,6 +76,7 @@ export default function MaESectionBodas() {
                         className="absolute z-[10] w-[max-content] md:w-[40%] -bottom-5 cursor-pointer bg-[#390447] md:text-[30px] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff] hover:text-[#AD0569]">
                             Elegir Son del Caribe
                 </button>
+                </Link>
             </div>
         </section>
     )

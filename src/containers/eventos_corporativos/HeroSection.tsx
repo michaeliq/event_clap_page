@@ -1,12 +1,11 @@
 import Wave from "src/components/Wave"
 import image_banner from "../../assets/banner_hero_event_corp.webp"
+import { Link } from "react-router"
 
 export default function HeroSectionEventosCorporativos() {
     return (
-        <section className="hero_section_eventos_corporativos flex flex-col md:flex-row justify-end md:justify-center items-center gap-10 py-20 px-5" style={{
+        <section className="hero_section_eventos_corporativos flex flex-col md:flex-row justify-end md:justify-center items-center gap-10 py-20 px-5 min-h-screen h-screen md:min-h-[750px]" style={{
             width: "100vw",
-            height: "auto",
-            minHeight: "100vh",
             position:"relative",
             backgroundImage: `url(${image_banner})`,
             backgroundRepeat: "no-repeat",
@@ -16,7 +15,7 @@ export default function HeroSectionEventosCorporativos() {
         }}>
             <Wave/>
             <div
-                className="info_section_eventos_corporativos"
+                className="info_section_eventos_corporativos z-100"
                 style={{
                     width: "77%",
                     display: "flex",
@@ -31,6 +30,7 @@ export default function HeroSectionEventosCorporativos() {
                 <h4 className="subtitle_info_section_eventos_corporativos text-shadow-lg md:w-[40%] text-[26px] font-light leading-8 text-white">
                     Producción Estratégica + Storytelling + Tecnología Híbrida.
                 </h4>
+                <Link to="https://wa.me/573188016709?text=Eventos+Corporativos" target="_blank">
                 <button className="cta_info_section_eventos_corporativos cursor-pointer bg-[#BA1B56] transition duration-300 ease-in-out text-white hover:bg-[#fff] hover:text-[#AD0569] text-[15px] md:text[18px]"
                     style={{
                         display: "flex",
@@ -43,8 +43,10 @@ export default function HeroSectionEventosCorporativos() {
                         boxShadow: "5px 5px 10px #0008",
                     }}
                 >
-                     Ver soluciones corporativas
+                    Ver soluciones corporativas
                 </button>
+                
+                </Link>
             </div>
         </section>
     )

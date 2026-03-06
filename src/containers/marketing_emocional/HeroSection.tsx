@@ -1,12 +1,12 @@
 import Wave from "src/components/Wave"
 import image_banner from "../../assets/bg_hero_marketing.webp"
+import { Link } from "react-router"
 
 export default function HeroSectionMarketingEmocional() {
     return (
-        <section className="hero_section_marketing_emocional justify-center items-end md:items-center pb-4" style={{
+        <section className="hero_section_marketing_emocional justify-center items-end md:items-center pb-4 min-h-screen h-screen md:min-h-[750px]" 
+        style={{
             width: "100vw",
-            height: "auto",
-            minHeight: "100vh",
             position: "relative",
             backgroundImage: `url(${image_banner})`,
             backgroundRepeat: "no-repeat",
@@ -17,7 +17,7 @@ export default function HeroSectionMarketingEmocional() {
         }}>
             <Wave />
             <div
-                className="info_section_marketing_emocional"
+                className="info_section_marketing_emocional z-100"
                 style={{
                     width: "77%",
                     display: "flex",
@@ -34,6 +34,7 @@ export default function HeroSectionMarketingEmocional() {
                 <h4 className="subtitle_info_section_marketing_emocional md:w-[40%] text-[26px] font-light leading-8 text-white">
                     Integramos creatividad, análisis y experiencia para posicionar marcas, activar audiencias y convertir emociones en resultados medibles.
                 </h4>
+                <Link to="https://wa.me/573188016709?text=Eventos+de+Marketing+Emocional" target="_blank">
                 <button className="cta_info_section_marketing_emocional cursor-pointer bg-[#BA1B56] transition duration-300 ease-in-out text-white hover:bg-[#fff] hover:text-[#AD0569] md:w-[max-content]"
                     style={{
                         display: "flex",
@@ -48,6 +49,7 @@ export default function HeroSectionMarketingEmocional() {
                 >
                     Quiero mi evento con alma
                 </button>
+                </Link>
             </div>
         </section>
     )

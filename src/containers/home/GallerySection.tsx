@@ -68,8 +68,8 @@ export default function GallerySectionHome() {
                 {/** End Mobile Section */}
                 <div className="hidden img_content_gallery_section_home md:flex flex-col gap-y-4">
                     <div className="row_1_content_gallery_section_home flex justify-evenly items-center gap-4">
-                        <video autoPlay muted loop className="rounded-lg bg-[#000] md:w-[728px] md:h-[365px]" style={{ boxShadow: "0px 2px 10px #0003" }}>
-                            <source src={video1} type="video/mp4" />
+                        <video autoPlay controls loop className="rounded-lg bg-[#000] md:w-[728px] md:h-[365px]" style={{ boxShadow: "0px 2px 10px #0003" }}>
+                            <source src={video1}  type="video/mp4" />
                             <source src={video2} type="video/mp4" />
                         </video>
                         <img src={img_2_gallery} alt="Image Galery 2" />

@@ -1,5 +1,6 @@
 
 
+import { Link } from "react-router";
 import circle_3 from "../../assets/circle_3.webp";
 import btl from "../../assets/img_act_btl_section.webp"
 
@@ -31,6 +32,7 @@ export default function BTLSectionHome() {
                     <br/>Campañas sensoriales, 
                     <br/>temáticas y con propósito.
                 </p>
+                <Link to="/activacion_btl">
                 <button
                     style={{
                         display: "flex",
@@ -45,6 +47,7 @@ export default function BTLSectionHome() {
                     className="cta_info_btl_section_home cursor-pointer bg-white transition duration-300 ease-in-out text-[#390447] font-bold hover:bg-[#fff] hover:text-[#AD0569]">
                     Activar mi marca
                 </button>
+                </Link>
             </div>
             <div
                 style={{

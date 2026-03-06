@@ -1,16 +1,15 @@
 import Wave from "src/components/Wave"
 import image_banner from "../../assets/banner_hero_homepng.webp"
+import { Link } from "react-router"
 
 export default function HeroSectionHome() {
 
     return (
         <section
-            className="hero_section_home relative w-screen bg-gray-900"
+            className="hero_section_home relative w-screen bg-gray-900 min-h-screen h-screen md:min-h-[750px]"
             id="hero_section_home"
             style={{
                 width:"100vw",
-                height:"auto",
-                minHeight:"100vh",
                 backgroundImage:`url(${image_banner})`,
                 backgroundRepeat:"no-repeat",
                 backgroundPosition:"center",
@@ -34,6 +33,7 @@ export default function HeroSectionHome() {
                 <h4 className="subtitle_info_section_home w-85 text-center md:text-left text-[26px] font-light leading-8 text-white">
                     Eventos con propósito, emoción y tecnología 4.0. 
                 </h4>
+                <Link to="https://wa.me/573188016709?text=Conocer+m%C3%A1s+sobre+los+servicios+Event+Clap" target="_blank">
                 <button className="cta_info_section_home cursor-pointer bg-[#BA1B56] transition duration-300 ease-in-out text-white hover:bg-[#fff] hover:text-[#AD0569]"
                     style={{
                         display:"flex",
@@ -48,6 +48,8 @@ export default function HeroSectionHome() {
                 >
                     Quiero mi evento con alma
                 </button>
+                
+                </Link>
             </div>
 
         </section>

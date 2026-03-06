@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import circle_3 from "../assets/circle_3.webp";
 import circle_4 from "../assets/circle_4.webp";
 import con_alma from "../assets/con alma.webp";
@@ -112,6 +113,7 @@ export default function ContactSection() {
                     </h3>
                     <img src={ser_inolvidable} alt="para sentirse" className="text_complemet_contact_section w-[35%]" />
                 </div>
+                <Link className="w-full flex justify-center" to="https://wa.me/573188016709?text=Conocer+m%C3%A1s+sobre+los+servicios+Event+Clap" target="_blank">
                 <button
                         style={{
                             display: "flex",
@@ -127,6 +129,7 @@ export default function ContactSection() {
                         className="cta_info_contact_section cursor-pointer bg-[#AD0569] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff] hover:text-[#AD0569] w-[80%] md:w-[30%] text-center">
                             Comencemos a crear magia
                 </button>
+                </Link>
             </div>
 
             <img className="decoration_2_contact_section w-[12%] md:w-[10%] absolute top-[65%] md:top-[10%] right-0 rotate-y-[180deg] -rotate-x-[180deg]" src={circle_3} alt="Decoración Web Site Event Clap" />

@@ -2,6 +2,7 @@ import circle_1 from "../../assets/circle_1.webp";
 import circle_4 from "../../assets/circle_4.webp";
 import img_bodas from "../../assets/img_bodas_section.webp";
 import bodas_celebraciones from "../../assets/Bodas & Celebraciones.webp"
+import { Link } from "react-router";
 
 export default function WeddingSectionHome() {
     return (
@@ -26,6 +27,7 @@ export default function WeddingSectionHome() {
                 <p className="description_info_wedding_section_home text-[22px] text-center md:text-left">
                     <span className="font-bold">Historias que se viven con los cinco sentidos.</span> Diseño emocional, producción total y acompañamiento real.
                 </p>
+                <Link to="/bodas">
                 <button
                     style={{
                         display: "flex",
@@ -40,6 +42,7 @@ export default function WeddingSectionHome() {
                     className="cta_info_wedding_section_home cursor-pointer bg-[#9F1A91] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff] hover:text-[#AD0569]">
                     Planear mi Boda
                 </button>
+                </Link>
             </div>
             <div
                 style={{

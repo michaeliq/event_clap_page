@@ -16,7 +16,7 @@ export default function Header() {
         <div className="header" style={{
             width: "100vw",
             position: "absolute",
-            top: "80px",
+            top: "1%",
             left: "0px",
             padding: "0px 100px",
             zIndex: 1000,

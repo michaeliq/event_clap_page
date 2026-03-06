@@ -28,7 +28,7 @@ export default function InfoSectionActivacionBTL() {
                 }}
             >
                 <h2 className="title_info_info_section_activacion_btl text-center md:text-left font-normal leading-[45px] text-[40px] text-[#390447] mb-3">
-                    <span className="font-bold">Cuando la creatividad</span><br />
+                    <span className="font-bold text-center md:text-left">Cuando la creatividad</span><br />
                     se vuelve experiencia.
                 </h2>
                 <p className="description_info_info_section_activacion_btl text-[22px] font-Barrow md:w-[80%] text-center md:text-left" >

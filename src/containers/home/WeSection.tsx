@@ -3,6 +3,7 @@ import circle_2 from "../../assets/circle_2.webp";
 import circle_3 from "../../assets/circle_3.webp";
 import img_info_section from "../../assets/img_info_section.webp";
 import experiencias_alma from "../../assets/experiencias con alma_png.webp";
+import { Link } from "react-router";
 
 export default function WeSectionHome() {
     return (
@@ -33,6 +34,7 @@ export default function WeSectionHome() {
                     <span className="font-bold">Co–creamos contigo.</span> Diseñamos momentos que conectan, transforman y dejan huella. <br /><br />
                     Fusionamos emoción, tecnología y propósito para que cada experiencia cuente una historia que se recuerde y se comparta.
                 </p>
+                <Link to="/bodas">
                 <button
                     style={{
                         display: "flex",
@@ -47,6 +49,7 @@ export default function WeSectionHome() {
                     className="cta_info_we_section_home cursor-pointer bg-[#9F1A91] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff] hover:text-[#AD0569]">
                     Conoce nuestra esencia
                 </button>
+                </Link>
             </div>
             <div
                 style={{

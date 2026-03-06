@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import circle_1 from "../../assets/circle_1.webp";
 import circle_3 from "../../assets/circle_3.webp";
 import img_corporate from "../../assets/img_evn_coorp_section.png";
@@ -43,6 +44,7 @@ export default function CorporateSectionHome() {
                     <br/>que impulsan equipos,
                     <br/>marcas y comunidades.
                 </p>
+                <Link to={"/eventos_corporativos"}>
                 <button
                     style={{
                         display: "flex",
@@ -57,6 +59,7 @@ export default function CorporateSectionHome() {
                     className="cta_info_corporate_section_home self-center md:self-end cursor-pointer bg-[#9F1A91] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff] hover:text-[#AD0569]">
                     Quiero un evento corporativo
                 </button>
+                </Link>
             </div>
             <img className="decoration_2_corporate_section_home w-[70px] md:w-auto absolute bottom-[15%] md:bottom-0 md:top-[25%] right-0 rotate-y-[180deg] rotate-x-[180deg]" src={circle_3} alt="Decoración Web Site Event Clap" />
 

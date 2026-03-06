@@ -42,7 +42,7 @@ export default function GalleryVideosSectionBodas() {
             <img src={vivieron_la_experiencia} className="w-[80%] md:w-auto" alt="Vivieron la experiencia" />
             <div className="card_container_gallery_videos_section_bodas flex gap-10 overflow-scroll w-[80%] md:w-auto md:overflow-auto">
                 { videos_data?.map((video,key)=>(
-                   <video key={key} autoPlay muted loop className="w-[350px] h-[412px] rounded-lg bg-[#000]" style={{boxShadow:"0px 2px 10px #0003"}}>
+                   <video key={key} controls className="w-[350px] h-[412px] rounded-lg bg-[#000]" style={{boxShadow:"0px 2px 10px #0003"}}>
                         <source src={video.link} type="video/mp4" />
                     </video>
                 )) }

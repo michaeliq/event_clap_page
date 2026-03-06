@@ -1,13 +1,13 @@
 import Wave from "src/components/Wave"
 import image_banner from "../../assets/bg_hero_bodas.webp"
+import { Link } from "react-router"
 
 export default function HeroSectionBodas() {
     return (
-        <section className="hero_section_bodas flex flex-col md:flex-row justify-end md:justify-center items-center gap-10 py-20 px-5" style={{
+        <section className="hero_section_bodas flex flex-col md:flex-row justify-end md:justify-center items-center gap-10 py-20 px-5 min-h-screen h-screen md:min-h-[750px]" 
+        style={{
             width: "100vw",
-            height: "auto",
             position:"relative",
-            minHeight: "100vh",
             backgroundImage: `url(${image_banner})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
@@ -16,7 +16,7 @@ export default function HeroSectionBodas() {
         }}>
             <Wave/>
             <div 
-                className="info_section_bodas"
+                className="info_section_bodas z-100"
                 style={{
                     width:"77%",
                     display:"flex",
@@ -31,6 +31,7 @@ export default function HeroSectionBodas() {
                 <h4 className="subtitle_info_section_bodas w-85 text-shadow-lg text-[26px] font-light leading-8 text-white">
                     Diseñamos bodas que se sienten… 
                 </h4>
+                <Link to="https://wa.me/573188016709?text=Eventos+de+Bodas" target="_blank">
                 <button className="cta_info_section_bodas cursor-pointer bg-[#BA1B56] transition duration-300 ease-in-out text-white hover:bg-[#fff] hover:text-[#AD0569]"
                     style={{
                         display:"flex",
@@ -45,6 +46,8 @@ export default function HeroSectionBodas() {
                 >
                     Planear mi Boda
                 </button>
+                
+                </Link>
             </div>
         </section>
     )

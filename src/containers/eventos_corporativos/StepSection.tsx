@@ -2,6 +2,7 @@
 import { useState } from "react"
 import arrow_r from "../../assets/arrow_r.png"
 import arrow_l from "../../assets/arrow_l.png"
+import { Link } from "react-router"
 
 const cardsStep = [
     {
@@ -94,6 +95,7 @@ export default function StepSectionEventosCorporativos(){
                         </div>
                     ))}
                 </div>
+                <Link to="https://wa.me/573188016709?text=Eventos+Corporativos" target="_blank">
                 <button
                         style={{
                             display: "flex",
@@ -109,6 +111,7 @@ export default function StepSectionEventosCorporativos(){
                         className="w-[80%] md:w-auto cta_info_contact_section cursor-pointer bg-[#fff] transition duration-300 ease-in-out text-[17px] md:text-[25px] text-[#390447] font-bold hover:bg-[#fff] hover:text-[#AD0569]">
                             Impulsar mi marca
                 </button>
+                </Link>
         </div>
     )
 } 

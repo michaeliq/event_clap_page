@@ -3,6 +3,7 @@
 import travel from "../../assets/travel_img.webp"
 import colombia from "../../assets/colombia.png"
 import Wave from "src/components/Wave"
+import { Link } from "react-router"
 
 export default function TravelSectionHome() {
     return (
@@ -19,7 +20,7 @@ export default function TravelSectionHome() {
         >
             <Wave/>
             <div
-                className="info_travel_section_home w-full md:w-[38.5%] flex flex-col items-center md:items-start justify-center gap-2"
+                className="z-100 info_travel_section_home w-full md:w-[38.5%] flex flex-col items-center md:items-start justify-center gap-2"
             >
                 <h2 className="title_info_we_section_home font-bold text-[30px] leading-[40px] md:text-[40px] text-center md:text-left text-white uppercase">
                     Rutas & Experiencas
@@ -29,6 +30,7 @@ export default function TravelSectionHome() {
                 <p className="description_info_travel_section_home text-[22px] text-center md:text-left text-white font-Barrow" style={{ width: "85%" }}>
                     Mucho más que turismo. Diseñamos recorridos que se sienten, se disfrutan y se recuerdan.
                 </p>
+                <Link to="https://wa.me/573188016709?text=Servicio+de+viajes+con+Event+Clap" target="_blank">
                 <button
                     style={{
                         display: "flex",
@@ -43,6 +45,7 @@ export default function TravelSectionHome() {
                     className="cta_info_travel_section_home cursor-pointer bg-white transition duration-300 ease-in-out text-[#390447] font-bold hover:bg-[#fff] hover:text-[#AD0569]">
                     Descubrir Colombia
                 </button>
+                </Link>
             </div>
             <div
                 style={{
