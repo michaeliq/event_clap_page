@@ -95,7 +95,7 @@ export default function StepSectionEventosCorporativos(){
                         </div>
                     ))}
                 </div>
-                <Link to="https://wa.me/573188016709?text=Eventos+Corporativos" target="_blank">
+                <Link to="https://wa.me/573188016709?text=Eventos+Corporativos" target="_blank" className="flex justify-center">
                 <button
                         style={{
                             display: "flex",
@@ -108,7 +108,7 @@ export default function StepSectionEventosCorporativos(){
                             boxShadow: "2px 2px 6px #0008",
                             height: "40px",
                         }}
-                        className="w-[80%] md:w-auto cta_info_contact_section cursor-pointer bg-[#fff] transition duration-300 ease-in-out text-[17px] md:text-[25px] text-[#390447] font-bold hover:bg-[#fff] hover:text-[#AD0569]">
+                        className="w-[100%] md:w-auto cta_info_contact_section cursor-pointer bg-[#fff] transition duration-300 ease-in-out text-[17px] md:text-[25px] text-[#390447] font-bold hover:bg-[#fff] hover:text-[#AD0569]">
                             Impulsar mi marca
                 </button>
                 </Link>

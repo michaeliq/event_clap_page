@@ -52,7 +52,7 @@ export default function GallerySectionHome() {
                 {/** Mobile section */}
                 <div className="md:hidden flex flex-col gap-y-4">
                     <div className="row_1_content_gallery_section_home flex justify-evenly items-center gap-4">
-                        <video autoPlay muted loop className="rounded-lg bg-[#000] md:w-[728px] md:h-[365px]" style={{ boxShadow: "0px 2px 10px #0003" }}>
+                        <video controls loop className="rounded-lg bg-[#000] md:w-[728px] md:h-[365px]" style={{ boxShadow: "0px 2px 10px #0003" }}>
                             <source src={video1} type="video/mp4" />
                             <source src={video2} type="video/mp4" />
                         </video>
