@@ -51,7 +51,7 @@ export default function GallerySectionEventosCorporativos() {
                 <div className="md:hidden flex flex-col gap-y-4">
                     <div className="row_1_content_gallery_section_home flex justify-evenly items-center gap-4">
                         <video controls loop className="rounded-lg bg-[#000] md:w-[728px] md:h-[365px]" style={{ boxShadow: "0px 2px 10px #0003" }}>
-                            <source src={"http://212.56.37.24/connect_2025_eventos_corporativos.mp4"} type="video/mp4" />
+                            <source src={"https://eventclap.com/connect_2025_eventos_corporativos.mp4"} type="video/mp4" />
                         </video>
                     </div>
                     <div className="flex gap-4 overflow-scroll">
