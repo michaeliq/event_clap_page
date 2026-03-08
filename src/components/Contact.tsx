@@ -50,7 +50,7 @@ export default function ContactSection() {
                 html:"", 
                 from:"no-reply@eventclap.com"
             }
-            const req = await fetch("http://localhost:3000/send-email",{
+            const req = await fetch("https://mail.eventclap.com/send-email",{
                 method:"POST",
                 headers:{
                     "Content-Type":"application/json",
