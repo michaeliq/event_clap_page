@@ -13,10 +13,9 @@ export default function Header() {
 
 
     return (
-        <div className="header" style={{
+        <div className="header top-[80px] md:top-[1%]" style={{
             width: "100vw",
             position: "absolute",
-            top: "1%",
             left: "0px",
             padding: "0px 100px",
             zIndex: 1000,
