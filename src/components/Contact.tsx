@@ -1,11 +1,76 @@
+"use client"
 import { Link } from "react-router";
 import circle_3 from "../assets/circle_3.webp";
-import circle_4 from "../assets/circle_4.webp";
-import con_alma from "../assets/con alma.webp";
 import icon_address from "../assets/icon_address.webp";
 import ser_inolvidable from "../assets/ser inolvidable.webp"
 
+import { useState } from "react";
+import Swal from "sweetalert2";
+
+interface Form  {
+ nombre:string,
+ apellido:string,
+ celular:string,
+ correo:string
+}
+
+const InitValues = {
+    nombre:"",
+    apellido:"",
+    celular:"",
+    correo:"",
+}
+
 export default function ContactSection() {
+
+    const [form,setFormData] = useState<Form>(InitValues)
+    const [submiting,setSubmiting] = useState(false)
+
+    const handleChange = (e:any) => {
+        const {value,name} = e.target;
+        setFormData((prev)=>({...prev,[name]:value}))
+    }
+
+    const handleSubmit = async (e:any) => {
+        e.preventDefault();
+        setSubmiting(true);
+
+        if(!form?.nombre || !form?.apellido || !form?.celular || !form?.correo){
+            Swal.fire("Importante","Debes completar todos los campos para contactarnos","warning");
+            setSubmiting(false);
+            return
+        }
+        
+        try {
+            const payload = {
+                ...form,
+                to:"gerencia@eventclap.com", 
+                subject:"Nuevo Lead desde Event Clap", 
+                text:`Se ha generado una nueva solicitud: Nombre completo:${form?.nombre} ${form?.apellido}, celular: ${form?.celular}, correo: ${form?.correo}`, 
+                html:"", 
+                from:"no-reply@eventclap.com"
+            }
+            const req = await fetch("http://localhost:3000/send-email",{
+                method:"POST",
+                headers:{
+                    "Content-Type":"application/json",
+                },
+                body:JSON.stringify(payload)
+            });
+            if(req?.ok){
+                Swal.fire("Envio exitoso","Muy pronto nos pondremos en contacto contigo " + form?.nombre,"success")
+                setFormData(InitValues)
+            }else{
+                throw Error("Se ha generado un fallo durante el envio de la información");
+            }
+        } catch (error) {
+            Swal.fire("Algo salio mal","Vuelva a intentar enviar el formulario. Si el fallo persiste comunicate al (+57) 318 801 6709","error")
+            console.error(error);
+        } finally {
+            setSubmiting(false);
+        }
+    }
+
     return (
         <section
             className="contact_section relative"
@@ -29,7 +94,7 @@ export default function ContactSection() {
                     <h4 className="form_title_contact_section uppercase font-bold text-[#390447] text-[40px] text-center md:text-left">
                         hablemos
                     </h4>
-                    <form action="#" className="min-h-[315px] w-full md:w-[75%] py-8 flex flex-col justify-center items-center gap-4" style={{
+                    <form onSubmit={handleSubmit} className="min-h-[315px] w-full md:w-[75%] py-8 flex flex-col justify-center items-center gap-4" style={{
                         boxShadow: "0px 0px 10px #0003",
                         borderRadius: "15px"
                     }}>
@@ -41,7 +106,10 @@ export default function ContactSection() {
                                 Nombre:
                             </label>
                             <input
-                                id=""
+                                id="nombre"
+                                name="nombre"
+                                value={form?.nombre}
+                                onChange={handleChange}
                                 className=" w-[100%] bg-transparent text-gray-600 focus:border-blue-500 focus:outline-none transition-colors text-[18px]"
                             />
                         </div>
@@ -53,8 +121,11 @@ export default function ContactSection() {
                                 Apellido:
                             </label>
                             <input
-                                id=""
+                                id="apellido"
+                                name="apellido"
+                                value={form?.apellido}
                                 className=" w-[100%] bg-transparent text-gray-600 focus:border-blue-500 focus:outline-none transition-colors text-[18px]"
+                                onChange={handleChange}
                             />
                         </div>
                         <div className="flex w-[90%] gap-1 border-0 border-b-2 border-[#720742] bg-transparent py-2 text-gray-900 focus:border-blue-500 focus:outline-none transition-colors">
@@ -65,7 +136,10 @@ export default function ContactSection() {
                                 Celular:
                             </label>
                             <input
-                                id=""
+                                id="celular"
+                                name="celular"
+                                value={form?.celular}
+                                onChange={handleChange}
                                 className=" w-[100%] bg-transparent text-gray-600 focus:border-blue-500 focus:outline-none transition-colors text-[18px]"
                             />
                         </div>
@@ -77,7 +151,10 @@ export default function ContactSection() {
                                 Correo:
                             </label>
                             <input
-                                id=""
+                                id="correo"
+                                name="correo"
+                                value={form?.correo}
+                                onChange={handleChange}
                                 className=" w-[100%] bg-transparent text-gray-600 focus:border-blue-500 focus:outline-none transition-colors text-[18px]"
                             />
                         </div>
@@ -91,6 +168,7 @@ export default function ContactSection() {
                                 borderRadius: "25px",
                                 background: "linear-gradient(90deg, #700893 36%, #720742 100%)"
                             }}
+                            disabled={submiting}
                             className="cta_info_contact_section cursor-pointer text-[24px] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff]-important hover:text-white">
                             ENVIAR
                         </button>
