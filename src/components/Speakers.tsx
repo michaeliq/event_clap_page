@@ -4,32 +4,33 @@ import juanBermudez from "../assets/juan_bermudez.webp";
 import juanCGiraldo from "../assets/juan_c_giraldo.webp";
 import hciLaiChoi from "../assets/hci_lai_choi.webp";
 import circle_1 from "../assets/circle_1.webp";
+import { Link } from 'react-router';
 
 const speakersData = [
     {
         name: 'Jorge Giraldo',
         image: jorgeGiraldoImage,
-        link: "",
+        link: "https://www.linkedin.com/in/jorge-giraldo-restrepo/",
     },
     {
         name: 'Jhon Alexander López',
         image: johnLopez,
-        link: "",
+        link: "https://www.linkedin.com/in/jhon-alexander-l%C3%B3pez-%C3%A1lvarez/",
     },
     {
         name: 'Juan Andrés Bermúdez',
         image: juanBermudez,
-        link: "",
+        link: "https://www.linkedin.com/in/juan-andres-b-0a135020a/",
     },
     {
         name: 'Hci Lai Choi',
         image: hciLaiChoi,
-        link: "",
+        link: "https://www.linkedin.com/in/hci-lai-choi-urbano/",
     },
     {
         name: 'Juan Carlos Giraldo',
         image: juanCGiraldo,
-        link: "",
+        link: "https://www.linkedin.com/in/juan-carlos-giraldo-restrepo-78a06b90/",
     },
 
 ]
@@ -63,15 +64,15 @@ export default function Speakers() {
                     </h2>
                     <div className="line w-[82px] h-[4px] rounded-[4px] bg-[#720742] relative"></div>
                 </div>
-                <div className="card_container_speakers w-full flex flex-col md:flex-row justify-center items-between mt-10 gap-[5%] mb-10">
+                <div className="card_container_speakers w-full flex flex-col md:flex-row justify-start items-between mt-10 gap-[5%] mb-10">
                     {speakersData.map((speaker, index) => (
-                        <div key={index} className='flex flex-col items-center justify-center mb-10 md:mb-0'>
+                        <div key={index} className='flex flex-col items-center justify-start mb-10 md:mb-0'>
                             <img src={speaker.image} alt={speaker.name} className='sm:w-[100px] sm:h-[100px] md:w-[200px] md:h-[200px] md:min-w-[170px] md:min-h-[170px] rounded-[50%] border-[1.5px] border-t-[#3C074A] border-r-[#3C074A] border-l-[#9234E9] border-b-[#9234E9] p-1' />
                             <h4 className="card_name_speakers font-semibold text-[20px] text-center text-[#390447] mt-3">
                                 {speaker.name}
                             </h4>
                             <div className="card_link_speakers bg-[#390447] border border-[#D6769A] text-white rounded-[25px] px-5 py-1 mt-2 hover:bg-[#AD0569] transition duration-300 text-[12px] text-center">
-                                <a href="">{speaker.name} | LinkedIn</a>
+                                <a href={speaker?.link} target='_blank'>{speaker.name} | LinkedIn</a>
                             </div>
                         </div>
                     ))}
@@ -87,6 +88,7 @@ export default function Speakers() {
                         <br /><br />
                         Combinan visión estratégica, tecnología 4.0 y habilidades humanas para inspirar equipos, optimizar procesos y potenciar la toma de decisiones en entornos altamente competitivos.
                     </p>
+                    <Link to="https://wa.me/573188016709?text=Agendar+un+Speaker">
                     <button className='absolute -bottom-5 cursor-pointer bg-[#9F1A91] transition duration-300 ease-in-out text-white hover:bg-[#fff] hover:text-[#AD0569] font-bold' style={{
                         display: "flex",
                         justifyContent: "center",
@@ -99,6 +101,7 @@ export default function Speakers() {
                     }}>
                         Agenda un speaker
                     </button>
+                    </Link>
                 </div>
 
             </div>
