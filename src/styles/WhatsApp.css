@@ -1,0 +1,17 @@
+
+
+.whatsapp-comp {
+    animation: zig-zig 3s ease-in-out infinite;
+}
+
+@keyframes zig-zig {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
