@@ -23,7 +23,7 @@ export default function TravelSectionHome() {
                 className="z-100 info_travel_section_home w-full md:w-[38.5%] flex flex-col items-center md:items-start justify-center gap-2"
             >
                 <h2 className="title_info_we_section_home font-bold text-[30px] leading-[40px] md:text-[40px] text-center md:text-left text-white uppercase">
-                    Rutas & Experiencas
+                    Rutas & Experiencias
                 </h2>
                 <img src={colombia} alt="Colombia" className="travel_img_title w-[70%] my-0" />
                 <h4 className="text-center font-semibold text-white text-[25px] md:text-left text-shadow-lg">Viajar también es vivir una experiencia con alma.</h4>

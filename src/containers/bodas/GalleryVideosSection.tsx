@@ -35,7 +35,7 @@ export default function GalleryVideosSectionBodas() {
             <div className="header_container_gallery_videos_section_bodas bg-[#390447] w-[77%] rounded-[35px] py-3 flex justify-center items-center gap-5 mb-5" style={{boxShadow:"0px 2px 10px #000d"}}>
                 <img src={icon_start} alt="start image" />
                 <h2 className="title_gallery_videos_section_bodas uppercase text-center text-[20px] md:text-[50px] leading-[35px] text-white font-normal font-Barrow font-Barrow">
-                    premiados por quines
+                    premiados por quienes
                 </h2>
                 <img src={icon_start} alt="start image" />
             </div>
