@@ -8,7 +8,7 @@ import { Link } from "react-router";
 export default function WeSectionHome() {
     return (
         <section
-            className="we_section_home relative flex flex-col md:flex-row justify-center items-center gap-10 py-20 px-5"
+            className="we_section_home relative flex flex-col md:flex-row justify-center md:overflow-hidden items-center gap-10 py-20 px-5"
             id="we_section_home"
             style={{
                 backgroundColor: "#fff",
