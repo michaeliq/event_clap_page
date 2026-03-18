@@ -4,6 +4,7 @@ import img_1_services_section_home from "../../assets/img_ref_1_services_section
 import img_2_services_section_home from "../../assets/img_ref_2_services_section.webp"
 import img_3_services_section_home from "../../assets/img_ref_3_services_section.webp"
 import img_4_services_section_home from "../../assets/img_ref_4_services_section.webp"
+import img_5_services_section_home from "../../assets/img_ref_5_services_section.webp"
 import arrow_r from "../../assets/arrow_r.png"
 import arrow_l from "../../assets/arrow_l.png"
 import { useState } from "react";
@@ -28,6 +29,11 @@ const cardsServices = [
         title: "marketing emocional",
         link: "marketing_emocional",
         img_src: img_4_services_section_home
+    },
+    {
+        title: "rutas colombia",
+        link: "#travel_section_home",
+        img_src: img_5_services_section_home
     },
 ]
 

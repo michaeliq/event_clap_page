@@ -1,7 +1,9 @@
 import icon_start from "../../assets/start_icon.webp"
 import vivieron_la_experiencia from "../../assets/vivieron-la-experiencia.webp"
 import vertical_card_gray from "../../assets/rectangle_gray_vertical.webp"
-import video1 from "../../assets/MATRI 2021.mp4"
+
+import video1 from "../../assets/ORQUESTA SON DEL CARIBE.mp4"
+//import video1 from "../../assets/MATRI 2021.mp4"
 import video2 from "../../assets/MATRI 2023.mp4"
 import video3 from "../../assets/MATRI 2024.mp4"
 

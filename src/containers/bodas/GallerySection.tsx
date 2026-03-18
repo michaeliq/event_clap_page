@@ -1,6 +1,4 @@
-import rectangle_gray from "../../assets/rectangle_gray.webp";
-import video1 from "../../assets/MATRI 2019.mp4"
-import video2 from "../../assets/MATRI 2020.mp4"
+
 import img_2_gallery from "../../assets/img_8_gallery_section.webp";
 import img_3_gallery from "../../assets/img_9_gallery_section.webp";
 import img_4_gallery from "../../assets/img_10_gallery_section.webp";
@@ -54,8 +52,7 @@ export default function GallerySectionBodas() {
                 <div className="md:hidden flex flex-col gap-y-4">
                     <div className="row_1_content_gallery_section_home flex justify-evenly items-center gap-4">
                         <video controls className="rounded-lg bg-[#000] md:w-[728px] md:h-[365px]" style={{ boxShadow: "0px 2px 10px #0003" }}>
-                            <source src={video1} type="video/mp4" />
-                            <source src={video2} type="video/mp4" />
+                            <source src={"https://eventclap.com/YTDown.com_YouTube_JULIE-_-JUAN_Media_HRQCv_HWvuU_001_1080p.mp4"} type="video/mp4" />
                         </video>
                     </div>
                     <div className="flex gap-4 overflow-scroll">
@@ -70,8 +67,7 @@ export default function GallerySectionBodas() {
                 <div className="hidden img_content_gallery_section_bodas md:flex flex-col gap-y-4">
                     <div className="row_1_content_gallery_section_bodas flex justify-evenly items-center gap-4">
                         <video controls loop className="rounded-lg bg-[#000] md:w-[728px] md:h-[365px]" style={{ boxShadow: "0px 2px 10px #0003" }}>
-                            <source src={video1} type="video/mp4" />
-                            <source src={video2} type="video/mp4" />
+                            <source src={"https://eventclap.com/YTDown.com_YouTube_JULIE-_-JUAN_Media_HRQCv_HWvuU_001_1080p.mp4"} type="video/mp4" />
                         </video>
                         <img src={img_2_gallery} alt="Image Galery 2" />
                     </div>
