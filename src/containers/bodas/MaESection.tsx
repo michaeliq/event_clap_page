@@ -41,11 +41,11 @@ export default function MaESectionBodas() {
                 alignItems: "center",
             }}>
                 <div className="content_m_a_e_section_bodas flex items-start flex-col w-[77%] h-full">
-                    <h3 className="title_content_m_a_e_section_bodas font-bold text-[50px] text-white">
+                    <h3 className="title_content_m_a_e_section_bodas font-bold text-center text-[35px] md:text-[50px] text-white">
                         O R Q U E S T A
                     </h3>
                     <img src={son_del_caribe} alt="Son del caribe" />
-                    <h4 className="subtitle_m_a_e_section_bodas text-white text-[33px] font-semibold leading-[37px] my-2">
+                    <h4 className="mt-30 md:mt-5 subtitle_m_a_e_section_bodas text-white text-[33px] font-semibold leading-[37px] my-2">
                         La banda sonora de <br />bodas que no se olvidan.
                     </h4>
                     <p className="text_m_a_e_section_bodas text-white text-normal text-[28px] font-Barrow">
@@ -55,7 +55,7 @@ export default function MaESectionBodas() {
             </div>
 
             <div className="container_2_m_a_e_section_bodas relative md:min-h-[320px] mt-[161px] h-[max-content] py-10 md:p-5 rounded-lg flex flex-col items-center justify-center border border-[#05A3A3] w-[90%] md:w-[80%]">
-                <img src={caribes_img} alt="Son del Caribe" className="absolute -top-[30%] md:-top-[145px]" />
+                <img src={caribes_img} alt="Son del Caribe" className="absolute -top-[145px] md:-top-[145px]" />
                 <p className="text_container_2_m_a_e_section_bodas w-[80%] text-[24px] text-center">
                     <span className="font-bold">Transforma cada celebración en una experiencia vibrante.</span><br />
                     Un show en vivo que fusiona ritmos latinos, clásicos y urbanos en un formato crossover que conecta generaciones y mantiene la pista encendida de principio a fin.<br/><br/>

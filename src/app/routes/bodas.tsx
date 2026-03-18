@@ -10,7 +10,7 @@ import GalleryVideosSectionBodas from "src/containers/bodas/GalleryVideosSection
 import MaESectionBodas from "src/containers/bodas/MaESection";
 
 
-export function meta({}: Route.MetaArgs) {
+export function meta({ }: Route.MetaArgs) {
   return [
     { title: "Bodas - Event Clap" },
     { name: "description", content: "Sección de Bodas Event Clap!" },
@@ -20,14 +20,14 @@ export function meta({}: Route.MetaArgs) {
 export default function Page() {
   return (
     <div className="">
-      <HeroSectionBodas/>
-      <InfoSectionBodas/>
-      <StepSectionBodas/>
-      <GallerySectionBodas/>
-      <MentionSection/>
-      <GalleryVideosSectionBodas/>
-      <MaESectionBodas/>
-      <ContactSection/>
+      <HeroSectionBodas />
+      <InfoSectionBodas />
+      <StepSectionBodas />
+      <GallerySectionBodas />
+      <MaESectionBodas />
+      <MentionSection />
+      <GalleryVideosSectionBodas />
+      <ContactSection />
     </div>
   );
 }
