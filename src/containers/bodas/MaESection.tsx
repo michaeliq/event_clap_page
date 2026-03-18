@@ -5,7 +5,7 @@ import caribes_img from "../../assets/Son_Caribe_logo 1.webp"
 
 export default function MaESectionBodas() {
     return (
-        <section className="m_a_e_section_bodas py-10" id="musica"
+        <section className="m_a_e_section_bodas pb-20 md:pb-25" id="musica"
             style={{
                 backgroundColor: "#fff",
                 width: "100%",
@@ -16,7 +16,6 @@ export default function MaESectionBodas() {
                 justifyContent: "flex-start",
                 alignItems: "center",
                 flexDirection: "column",
-                paddingTop: "50px",
             }}
         >
             <div className="header_containerm_a_e_section_bodas flex justify-center items-center gap-5 mb-5">
