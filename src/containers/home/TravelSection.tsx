@@ -22,12 +22,12 @@ export default function TravelSectionHome() {
             <div
                 className="z-100 info_travel_section_home w-full md:w-[38.5%] flex flex-col items-center md:items-start justify-center gap-2"
             >
-                <h2 className="title_info_we_section_home font-bold text-[30px] leading-[40px] md:text-[40px] text-center md:text-left text-white uppercase">
+                <h2 className="title_info_we_section_home font-bold text-[30px] leading-[100%] md:text-[40px] xl:text-[50px] 3xl:text-[58px] text-center md:text-left text-white uppercase">
                     Rutas & Experiencias
                 </h2>
                 <img src={colombia} alt="Colombia" className="travel_img_title w-[70%] my-0" />
-                <h4 className="text-center font-semibold text-white text-[25px] md:text-left text-shadow-lg">Viajar también es vivir una experiencia con alma.</h4>
-                <p className="description_info_travel_section_home text-[22px] text-center md:text-left text-white font-Barrow" style={{ width: "85%" }}>
+                <h4 className="text-center font-semibold text-white text-[25px] xl:text-[30px] 3xl:text-[34px] md:text-left text-shadow-lg">Viajar también es vivir una experiencia con alma.</h4>
+                <p className="description_info_travel_section_home text-[22px] xl:text-[26px] 3xl:text-[30px] text-center md:text-left text-white font-Barrow" style={{ width: "85%" }}>
                     Mucho más que turismo. Diseñamos recorridos que se sienten, se disfrutan y se recuerdan.
                 </p>
                 <Link to="https://wa.me/573188016709?text=Servicio+de+viajes+con+Event+Clap" target="_blank">

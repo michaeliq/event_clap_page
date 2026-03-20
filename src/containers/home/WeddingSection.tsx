@@ -24,7 +24,7 @@ export default function WeddingSectionHome() {
             >
                 <img className="subtitle_info_wedding_section_home " src={bodas_celebraciones} alt="Bodas y celebraciones"/>
 
-                <p className="description_info_wedding_section_home text-[22px] text-center md:text-left">
+                <p className="description_info_wedding_section_home text-[22px] xl:text-[26px] 3xl:text-[30px] text-center md:text-left">
                     <span className="font-bold">Historias que se viven con los cinco sentidos.</span> Diseño emocional, producción total y acompañamiento real.
                 </p>
                 <Link to="/bodas">

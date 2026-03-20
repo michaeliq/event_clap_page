@@ -23,14 +23,14 @@ export default function WeSectionHome() {
                 style={{
                 }}
             >
-                <p className="tag_info_we_section_home text-[#720742] text-center md:text-left text-[22px] bg-[#EDF0F7] py-1 px-4 rounded-sm">
+                <p className="tag_info_we_section_home text-[#720742] text-center md:text-left text-[22px] xl:text-[26px] 3xl:text-[30px] bg-[#EDF0F7] py-1 px-4 rounded-sm">
                     Somos EventClap
                 </p>
-                <h2 className="title_info_we_section_home font-bold text-center md:text-left text-[40px] text-[#886891] uppercase">
+                <h2 className="title_info_we_section_home font-bold text-center md:text-left text-[40px] xl:text-[50px] 3xl:text-[58px] text-[#886891] uppercase">
                     más que eventos:
                 </h2>
                 <img className="subtitle_info_we_section_home " src={experiencias_alma} alt="Experiencias con alma"/>
-                <p className="description_info_we_section_home text-[22px] text-center md:text-left md:pr-10">
+                <p className="description_info_we_section_home text-[22px] xl:text-[24px] 3xl:text-[30px] text-center md:text-left md:pr-10">
                     <span className="font-bold">Co–creamos contigo.</span> Diseñamos momentos que conectan, transforman y dejan huella. <br /><br />
                     Fusionamos emoción, tecnología y propósito para que cada experiencia cuente una historia que se recuerde y se comparta.
                 </p>

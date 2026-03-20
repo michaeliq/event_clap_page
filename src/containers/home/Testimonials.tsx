@@ -72,7 +72,7 @@ export default function TestimonialsSectionHome() {
                 gap: "50px"
             }}
         >
-            <h2 className="title_testimonials_section font-bold text-[40px] text-white uppercase">
+            <h2 className="title_testimonials_section font-bold text-[40px] xl:text-[50px] 3xl:text-[58px] text-white uppercase">
                 testimonios
             </h2>
             {/** Mobile version */}

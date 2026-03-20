@@ -25,10 +25,10 @@ export default function HeroSectionActivacionBTL() {
                     alignItems: "start",
                 }}
             >
-                <h1 className="title_info_section_activacion_btl md:w-[60%] text-shadow-lg text-[40px] font-bold leading-12 text-white">
+                <h1 className="title_info_section_activacion_btl md:w-[60%] text-shadow-lg text-[40px] xl:text-[50px] 3xl:text-[58px] font-bold leading-12 text-white">
                     Marcas que conectan. <br/>Experiencias que impactan.
                 </h1>
-                <h4 className="subtitle_info_section_activacion_btl md:w-[40%] text-shadow-lg text-[26px] font-light leading-8 text-white">
+                <h4 className="subtitle_info_section_activacion_btl md:w-[40%] text-shadow-lg text-[26px] xl:text-[30px] 3xl:text-[34px] font-light leading-8 text-white">
                     Creatividad disruptiva para marcas que quieren conversación real.
                 </h4>
                 <Link to="https://wa.me/573188016709?text=Servicios+de+Activaciones+BTL" target="_blank">

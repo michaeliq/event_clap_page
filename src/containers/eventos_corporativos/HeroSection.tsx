@@ -24,10 +24,10 @@ export default function HeroSectionEventosCorporativos() {
                     alignItems: "start",
                 }}
             >
-                <h1 className="title_info_section_eventos_corporativos text-shadow-lg md:w-[50%] text-[40px] font-bold leading-12 text-white">
+                <h1 className="title_info_section_eventos_corporativos text-shadow-lg md:w-[50%] text-[40px] xl:text-[50px] 3xl:text-[58px] font-bold leading-12 text-white">
                     Eventos que mueven marcas, ideas y personas.
                 </h1>
-                <h4 className="subtitle_info_section_eventos_corporativos text-shadow-lg md:w-[40%] text-[26px] font-light leading-8 text-white">
+                <h4 className="subtitle_info_section_eventos_corporativos text-shadow-lg md:w-[40%] text-[26px] xl:text-[30px] 3xl:text-[34px] font-light leading-8 text-white">
                     Producción Estratégica + Storytelling + Tecnología Híbrida.
                 </h4>
                 <Link to="https://wa.me/573188016709?text=Eventos+Corporativos" target="_blank">

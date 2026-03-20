@@ -33,12 +33,12 @@ export default function MarketingSectionHome() {
                     className="info_marketing_section_home w-[100%] md:w-[38.5%] flex flex-col justify-start align-center gap-4 my-10"
 
                 >
-                    <h2 className="title_info_marketing_section_home font-normal text-[27px] md:text-[45px] text-[#390447] text-center md:text-right">
+                    <h2 className="title_info_marketing_section_home font-normal text-[27px] md:text-[45px] xl:text-[55px] 3xl:text-[64px] text-[#390447] text-center md:text-right">
                         <span className="font-bold text-[#390447]">Campañas de</span><br />
                         marketing emocional
                     </h2>
-                    <h4 className="font-bold text-[20px] md:text-[26px] text-center md:text-right">Producción 4.0</h4>
-                    <p className="description_info_marketing_section_home px-5 md:px-[0px] text-[20px] md:text-[26px] text-center md:text-right w-full">
+                    <h4 className="font-bold text-[20px] md:text-[26px] xl:text-[30px] 3xl:text-[34px] text-center md:text-right">Producción 4.0</h4>
+                    <p className="description_info_marketing_section_home px-5 md:px-[0px] text-[20px] md:text-[26px] xl:text-[30px] 3xl:text-[34px] text-center md:text-right w-full">
                         Sonido, video, iluminación, escenografía
                         digital y streaming profesional.
                     </p>

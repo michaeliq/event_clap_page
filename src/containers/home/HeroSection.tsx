@@ -27,10 +27,10 @@ export default function HeroSectionHome() {
                     
                 }}
             >
-                <h1 className="title_info_section_home text-center md:text-left w-100 text-[30px] md:text-[40px] font-bold leading-12 text-white">
+                <h1 className="title_info_section_home text-center md:text-left w-[50%] text-[30px] md:text-[40px] 3xl:text-[56px] font-bold leading-16 text-white">
                     Donde la emoción se encuentra con la innovación.
                 </h1>
-                <h4 className="subtitle_info_section_home w-85 text-center md:text-left text-[26px] font-light leading-8 text-white">
+                <h4 className="subtitle_info_section_home w-85 text-center md:text-left text-[26px] xl:text-[30px] 3xl:text-[34px] font-light leading-10 text-white">
                     Eventos con propósito, emoción y tecnología 4.0. 
                 </h4>
                 <Link to="https://wa.me/573188016709?text=Conocer+m%C3%A1s+sobre+los+servicios+Event+Clap" target="_blank">

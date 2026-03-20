@@ -92,7 +92,7 @@ export default function ServicesSectionHome() {
                 className="container_services_section_home">
                 <div className="header_container_services_section_home flex justify-center items-center gap-5 mb-5">
                     <div className="line w-[82px] h-[2px] bg-[#fff]"></div>
-                    <h2 className="title_services_section_home uppercase text-center text-[25px] md:text-[45px] text-white font-semibold">
+                    <h2 className="title_services_section_home uppercase text-center text-[25px] md:text-[45px] xl:text-[55px] 3xl:text-[64px] text-white font-semibold">
                         servicios destacados
                     </h2>
                     <div className="line w-[82px] h-[2px] bg-[#fff]"></div>
@@ -101,7 +101,7 @@ export default function ServicesSectionHome() {
                     <img src={arrow_l} alt="flecha izquierda" onClick={() => { changeCard("left") }} />
                     <div className="card_services_section_home flex flex-col justify-center items-center gap-x-6 gap-y-2">
                         <h4
-                            className="title_card_services_section_home uppercase text-white text-[26px]"
+                            className="title_card_services_section_home uppercase text-white text-[26px] xl:text-[30px] 3xl:text-[34px]"
                             style={{
                                 fontFamily: "Bebas Neue"
                             }}>{cardsServices[cardData]?.title}</h4>
@@ -129,7 +129,7 @@ export default function ServicesSectionHome() {
                     {cardsServices?.map((item, key) => (
                         <div key={key} className="card_services_section_home flex flex-col justify-center items-center gap-x-6 gap-y-2">
                             <h4
-                                className="title_card_services_section_home uppercase text-white text-center text-[26px]"
+                                className="title_card_services_section_home uppercase text-white text-center text-[26px] xl:text-[30px] 3xl:text-[34px]"
                                 style={{
                                     fontFamily: "Bebas Neue"
                                 }}>{item?.title}</h4>

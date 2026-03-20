@@ -44,7 +44,7 @@ export default function PartnerSection() {
             }}
         >
             <div className="header_container_partner_section flex justify-center items-center md:gap-5 gap-2 mb-1 px-5 text-center ">
-                <h2 className="title_partner_section uppercase text-[30px] md:text-[45px] text-[#390447] font-semibold">
+                <h2 className="title_partner_section uppercase text-[30px] md:text-[45px] xl:text-[55px] 3xl:text-[64px] text-[#390447] font-semibold">
                     Empresas que apuestan <span className="text-[#AD0569]">por la innovación</span>
                 </h2>
             </div>

@@ -36,10 +36,10 @@ export default function CorporateSectionHome() {
                     gap: "30px",
                 }}
             >
-                <h2 className="title_info_corporate_section_home font-normal text-[40px] text-[#390447] text-center md:text-right uppercase">
+                <h2 className="title_info_corporate_section_home font-normal text-[40px] xl:text-[50px] 3xl:text-[58px] text-[#390447] text-center md:text-right uppercase">
                     <span className="font-bold text-[#390447]">Eventos</span> Corporativos
                 </h2>
-                <p className="description_info_corporate_section_home text-[22px] w-full text-center md:text-right md:w-[85%]">
+                <p className="description_info_corporate_section_home text-[22px] xl:text-[26px] 3xl:text-[30px] w-full text-center md:text-right md:w-[85%]">
                     <span className="font-bold">Experiencias estratégicas</span> 
                     <br/>que impulsan equipos,
                     <br/>marcas y comunidades.

@@ -29,10 +29,10 @@ export default function InfoSectionBodas() {
             >
                                 <img className="subtitle_info_info_section_bodas " src={bodas_con_alma} alt="Bodas con almas" />
 
-                <h2 className="title_info_info_section_bodas font-normal text-[40px] text-[#886891] text-center md:text-left">
+                <h2 className="title_info_info_section_bodas font-normal text-[40px] xl:text-[50px] 3xl:text-[58px] text-[#886891] text-center md:text-left">
                     diseñadas para contar<br/> tu historia.
                 </h2>
-                <p className="description_info_info_section_bodas text-[22px] text-center md:text-left md:w-[80%]">
+                <p className="description_info_info_section_bodas text-[22px] xl:text-[24px] 3xl:text-[30px] text-center md:text-left md:w-[80%]">
                     <span className="font-bold">No hacemos “bodas”.</span>  Creamos experiencias que hablan de ustedes, de su esencia, de su amor y de los detalles que los hacen únicos. Nuestro enfoque mezcla diseño, narrativa emocional y producción impecable.
                 </p>
             </div>

@@ -24,10 +24,10 @@ export default function BTLSectionHome() {
                     
                 }}
             >
-                <h2 className="title_info_we_section_home font-bold text-[30px] md:text-[50px] text-center md:text-left text-white uppercase">
+                <h2 className="title_info_we_section_home font-bold text-[30px] md:text-[50px] xl:text-[60px] 3xl:text-[72px] text-center md:text-left text-white uppercase">
                     Activaciones BTL
                 </h2>
-                <p className="description_info_btl_section_home text-[22px] text-center md:text-left text-white" style={{ width: "85%" }}>
+                <p className="description_info_btl_section_home text-[22px] xl:text-[26px] 3xl:text-[30px] text-center md:text-left text-white" style={{ width: "85%" }}>
                     <span className="font-bold">Creatividad que se viraliza.</span> 
                     <br/>Campañas sensoriales, 
                     <br/>temáticas y con propósito.

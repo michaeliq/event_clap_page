@@ -27,11 +27,11 @@ export default function InfoSectionActivacionBTL() {
                     gap: "10px",
                 }}
             >
-                <h2 className="title_info_info_section_activacion_btl text-center md:text-left font-normal leading-[45px] text-[40px] text-[#390447] mb-3">
+                <h2 className="title_info_info_section_activacion_btl text-center md:text-left font-normal leading-[45px] text-[40px] xl:text-[50px] 3xl:text-[58px] text-[#390447] mb-3">
                     <span className="font-bold text-center md:text-left">Cuando la creatividad</span><br />
                     se vuelve experiencia.
                 </h2>
-                <p className="description_info_info_section_activacion_btl text-[22px] font-Barrow md:w-[80%] text-center md:text-left" >
+                <p className="description_info_info_section_activacion_btl text-[22px] xl:text-[26px] 3xl:text-[30px] font-Barrow md:w-[80%] text-center md:text-left" >
                     Creamos activaciones que se sienten, se viven y se comparten. Ideas disruptivas basadas en insights, narrativa emocional y sensorialidad que genera conversación.
                 </p>
             </div>

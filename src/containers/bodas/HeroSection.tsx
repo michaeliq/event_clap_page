@@ -25,10 +25,10 @@ export default function HeroSectionBodas() {
                     alignItems:"start",
                 }}
             >
-                <h1 className="title_info_section_bodas md:w-[50%] text-shadow-lg  text-[30px] text-[40px] font-bold leading-12 text-white">
+                <h1 className="title_info_section_bodas md:w-[50%] text-shadow-lg  text-[30px] text-[40px] xl:text-[50px] 3xl:text-[58px] font-bold leading-12 text-white">
                     Tu historia merece un escenario inolvidable.
                 </h1>
-                <h4 className="subtitle_info_section_bodas w-85 text-shadow-lg text-[26px] font-light leading-8 text-white">
+                <h4 className="subtitle_info_section_bodas w-85 text-shadow-lg text-[26px] xl:text-[30px] 3xl:text-[34px] font-light leading-8 text-white">
                     Diseñamos bodas que se sienten… 
                 </h4>
                 <Link to="https://wa.me/573188016709?text=Eventos+de+Bodas" target="_blank">

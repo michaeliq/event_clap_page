@@ -44,7 +44,7 @@ export default function GallerySectionHome() {
 
                 <div className="header_container_gallery_section_home flex justify-center items-center gap-5 my-5">
                     <div className="line w-[82px] h-[2px] bg-[#720742]"></div>
-                    <h2 className="title_gallery_section_home uppercase text-[45px] text-center text-[#390447] font-bold">
+                    <h2 className="title_gallery_section_home uppercase text-[45px] xl:text-[55px] 3xl:text-[64px] text-center text-[#390447] font-bold">
                         eventos destacados
                     </h2>
                     <div className="line w-[82px] h-[2px] bg-[#720742]"></div>

@@ -25,13 +25,13 @@ export default function HeroSectionMarketingEmocional() {
                     gap: "15px",
                 }}
             >
-                <h1 className="title_info_section_marketing_emocional md:w-[50%] text-[40px] font-bold leading-12 text-white">
+                <h1 className="title_info_section_marketing_emocional md:w-[50%] text-[40px] xl:text-[50px] 3xl:text-[58px] font-bold leading-12 text-white">
                     Creatividad
                     que emociona. Tecnología
                     que transforma.
 
                 </h1>
-                <h4 className="subtitle_info_section_marketing_emocional md:w-[40%] text-[26px] font-light leading-8 text-white">
+                <h4 className="subtitle_info_section_marketing_emocional md:w-[40%] text-[26px] xl:text-[30px] 3xl:text-[34px] font-light leading-8 text-white">
                     Integramos creatividad, análisis y experiencia para posicionar marcas, activar audiencias y convertir emociones en resultados medibles.
                 </h4>
                 <Link to="https://wa.me/573188016709?text=Eventos+de+Marketing+Emocional" target="_blank">

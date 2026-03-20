@@ -15,10 +15,10 @@ export default function PromiseSection(){
                 boxSizing: "border-box",
                 gap: "30px",
             }}>
-                <h3 className="second_subtitle_marketing_section_home relative z-[10] uppercase text-[30px] md:text-[45px] text-white font-semibold uppercase bg-[#390447] w-[90%] md:w-[55%] text-center rounded-[35px] shadow-lg">
+                <h3 className="second_subtitle_marketing_section_home relative z-[10] uppercase text-[30px] md:text-[45px] xl:text-[55px] 3xl:text-[64px] text-white font-semibold uppercase bg-[#390447] w-[90%] md:w-[55%] text-center rounded-[35px] shadow-lg">
                     nuestra promesa
                 </h3>
-                <h4 className="relative flex flex-col md:flex-row border border-[#D6769A] -top-10 z-[1] md:min-w-[900px] w-[76%] rounded-lg flex items-center justify-center gap-3 text-[40px] font-normal text-[#390447] text-center py-[10px]">
+                <h4 className="relative flex flex-col md:flex-row border border-[#D6769A] -top-10 z-[1] md:min-w-[900px] w-[76%] rounded-lg flex items-center justify-center gap-3 text-[40px] xl:text-[50px] 3xl:text-[58px] font-normal text-[#390447] text-center py-[10px]">
                     <span className="font-bold md:font-medium">Experiencias <br className="md:hidden"/> Diseñadas</span>
                     <img src={para_sentirse} alt="para sentirse" className="text_complemet_marketing_section_home w-[70%] md:w-auto" />
                 </h4>

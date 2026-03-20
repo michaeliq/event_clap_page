@@ -27,11 +27,11 @@ export default function InfoSectionMarkeringEmocional() {
                     gap: "10px",
                 }}
             >
-                <h2 className="title_info_info_section_marketing_emocional font-bold leading-[45px] text-center md:text-left text-[40px] text-[#390447] mb-3">
+                <h2 className="title_info_info_section_marketing_emocional font-bold leading-[45px] text-center md:text-left text-[40px] xl:text-[50px] 3xl:text-[58px] text-[#390447] mb-3">
                     Estrategia que conecta.  <br />
                     <span className="font-normal">Emoción que convierte.</span>
                 </h2>
-                <p className="description_info_info_section_marketing_emocional text-[22px] font-Barrow md:w-[80%] text-center md:text-left">
+                <p className="description_info_info_section_marketing_emocional text-[22px] xl:text-[26px] 3xl:text-[30px] font-Barrow md:w-[80%] text-center md:text-left">
                     <b>Diseñamos estrategias de marketing</b> que integran análisis, creatividad y experiencia emocional para posicionar marcas, activar audiencias y generar resultados medibles.
                 </p>
             </div>

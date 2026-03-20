@@ -91,7 +91,7 @@ export default function ContactSection() {
                 <div
                     className="form_contact_section relative w-[85%] md:w-[38.5%] flex flex-col justify-start align-center gap-4"
                 >
-                    <h4 className="form_title_contact_section uppercase font-bold text-[#390447] text-[40px] text-center md:text-left">
+                    <h4 className="form_title_contact_section uppercase font-bold text-[#390447] text-[40px] xl:text-[50px] 3xl:text-[58px] text-center md:text-left">
                         hablemos
                     </h4>
                     <form onSubmit={handleSubmit} className="min-h-[315px] w-full md:w-[75%] py-8 flex flex-col justify-center items-center gap-4" style={{
@@ -169,7 +169,7 @@ export default function ContactSection() {
                                 background: "linear-gradient(90deg, #700893 36%, #720742 100%)"
                             }}
                             disabled={submiting}
-                            className="cta_info_contact_section cursor-pointer text-[24px] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff]-important hover:text-white">
+                            className="cta_info_contact_section cursor-pointer text-[24px] xl:text-[28px] 3xl:text-[32px] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff]-important hover:text-white">
                             ENVIAR
                         </button>
                     </form>
@@ -177,7 +177,7 @@ export default function ContactSection() {
                 <div
                     className="info_contact_section flex flex-col items-end justify-evenly gap-[10px] w-[90%] md:w-[38.5%]"
                 >
-                    <h4 className="w-[100%] subtitle_map_container_2_contact_section text-[35px] font-light italic text-white bg-[#886891] text-center rounded-md py-2">
+                    <h4 className="w-[100%] subtitle_map_container_2_contact_section text-[35px] xl:text-[44px] 3xl:text-[50px] font-light italic text-white bg-[#886891] text-center rounded-md py-2">
                         <img className="inline mr-2" src={icon_address} alt="Dirección de Event Clap" /> Dónde estamos?
                     </h4>
                     <div ></div>
@@ -186,7 +186,7 @@ export default function ContactSection() {
             </div>
             <div className="container_2_contact_section w-[100%] flex flex-col justify-center items-center gap-[20px]">
                 <div className="info_container_2_contact_section flex flex-col md:flex-row justify-center items-center gap-[20px] w-[100%]">
-                    <h3 className="second_subtitle_contact_section uppercase text-[45px] text-[#390447] text-center md:text-left font-bold">
+                    <h3 className="second_subtitle_contact_section uppercase text-[45px] xl:text-[55px] 3xl:text-[64px] text-[#390447] text-center md:text-left font-bold">
                         Tu evento merece
                     </h3>
                     <img src={ser_inolvidable} alt="para sentirse" className="text_complemet_contact_section w-[35%]" />

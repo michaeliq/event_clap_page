@@ -42,9 +42,9 @@ export default function GallerySection() {
 
                 <div className="header_container_gallery_section flex justify-center items-center gap-5 my-5">
                     <div className="line w-[82px] h-[4px] rounded-[4px] bg-[#720742] relative bottom-[15px]"></div>
-                    <h2 className="title_gallery_section text-[45px] text-[#390447] text-center leading-[35px] font-bold">
+                    <h2 className="title_gallery_section text-[45px] xl:text-[55px] 3xl:text-[64px] text-[#390447] text-center leading-[35px] font-bold">
                         <span className="uppercase">Galería</span><br />
-                        <span className="text-[26px] font-Barrow font-normal">Activaciones BTL</span>
+                        <span className="text-[26px] xl:text-[30px] 3xl:text-[34px] font-Barrow font-normal">Activaciones BTL</span>
                     </h2>
                     <div className="line w-[82px] h-[4px] rounded-[4px] bg-[#720742] relative bottom-[15px]"></div>
                 </div>

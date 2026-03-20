@@ -20,7 +20,7 @@ export default function MaESectionBodas() {
         >
             <div className="header_containerm_a_e_section_bodas flex justify-center items-center gap-5 mb-5">
                 <div className="line w-[82px] h-[3px] bg-[#390447]"></div>
-                <h2 className="titlem_a_e_section_bodas uppercase text-[25px] md:text-[50px] md:leading-[55px] text-center uppercase text-[#390447] font-bold">
+                <h2 className="titlem_a_e_section_bodas uppercase text-[25px] md:text-[50px] xl:text-[60px] 3xl:text-[72px] md:leading-[55px] text-center uppercase text-[#390447] font-bold">
                     Música & <br /> entretenimiento
                 </h2>
                 <div className="line w-[82px] h-[3px] bg-[#390447]"></div>
@@ -40,22 +40,22 @@ export default function MaESectionBodas() {
                 alignItems: "center",
             }}>
                 <div className="content_m_a_e_section_bodas flex items-start flex-col w-[77%] h-full">
-                    <h3 className="title_content_m_a_e_section_bodas font-bold text-center text-[35px] md:text-[50px] text-white">
+                    <h3 className="title_content_m_a_e_section_bodas font-bold text-center text-[35px] md:text-[50px] xl:text-[60px] 3xl:text-[72px] text-white">
                         O R Q U E S T A
                     </h3>
                     <img src={son_del_caribe} alt="Son del caribe" />
-                    <h4 className="mt-30 md:mt-5 subtitle_m_a_e_section_bodas text-white text-[33px] font-semibold leading-[37px] my-2">
+                    <h4 className="mt-30 md:mt-5 subtitle_m_a_e_section_bodas text-white text-[33px] xl:text-[42px] 3xl:text-[50px] font-semibold leading-[37px] my-2">
                         La banda sonora de <br />bodas que no se olvidan.
                     </h4>
-                    <p className="text_m_a_e_section_bodas text-white text-normal text-[28px] font-Barrow">
+                    <p className="text_m_a_e_section_bodas text-white text-normal text-[28px] xl:text-[34px] 3xl:text-[40px] font-Barrow">
                         Música a la medida. Energía en vivo. <br />Momentos que se quedan.
                     </p>
                 </div>
             </div>
 
-            <div className="container_2_m_a_e_section_bodas relative md:min-h-[320px] mt-[161px] h-[max-content] py-10 md:p-5 rounded-lg flex flex-col items-center justify-center border border-[#05A3A3] w-[90%] md:w-[80%]">
+            <div className="container_2_m_a_e_section_bodas relative md:min-h-[340px] mt-[161px] h-[max-content] py-10 md:py-10 rounded-lg flex flex-col items-center justify-center border border-[#05A3A3] w-[90%] md:w-[80%]">
                 <img src={caribes_img} alt="Son del Caribe" className="absolute -top-[145px] md:-top-[145px]" />
-                <p className="text_container_2_m_a_e_section_bodas w-[80%] text-[24px] text-center">
+                <p className="text_container_2_m_a_e_section_bodas w-[80%] text-[24px] xl:text-[28px] 3xl:text-[32px] text-center">
                     <span className="font-bold">Transforma cada celebración en una experiencia vibrante.</span><br />
                     Un show en vivo que fusiona ritmos latinos, clásicos y urbanos en un formato crossover que conecta generaciones y mantiene la pista encendida de principio a fin.<br/><br/>
                     La <span className="font-bold">Orquesta son del Caribe </span>ofrece  formaciones flexibles de <span className="font-bold">3 a 12 integrantes,</span> adaptándose a cada tipo de evento con energía, versatilidad y una puesta en escena impecable.
@@ -74,7 +74,7 @@ export default function MaESectionBodas() {
                             boxShadow: "2px 2px 6px #0008",
                             height: "40px",
                         }}
-                        className="absolute z-[10] w-[max-content] md:w-[max-content] -bottom-5 cursor-pointer bg-[#390447] md:text-[30px] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff] hover:text-[#AD0569]">
+                        className="absolute z-[10] w-[max-content] md:w-[max-content] -bottom-5 cursor-pointer bg-[#390447] md:text-[30px] xl:text-[36px] 3xl:text-[42px] transition duration-300 ease-in-out text-white font-bold hover:bg-[#fff] hover:text-[#AD0569]">
                             Elegir Son del Caribe
                 </button>
                 </Link>

@@ -70,11 +70,11 @@ export default function StepSectionActivacionBTL(){
             <div className="flex md:hidden justify-center items-center gap-4">
                 <img src={arrow_l} alt="flecha izquierda" onClick={() => { changeCard("left") }} />
                 <div className="card_step_section_bodas relative flex flex-col justify-between w-[70%] h-[300px] bg-white items-center gap-x-6 gap-y-6 px-5 pt-10 pb-10 text-[#390447] rounded-lg" >
-                    <div className="card_number w-[60px] h-[60px] flex items-center justify-center border border-[#9747FF] rounded-[50%] absolute -top-8 bg-white font-Barrow font-bold text-[26px]">{cardData + 1}</div>
-                    <h4 className="title_card_steps text-center text-[26px] font-Barrow font-semibold w-[80%]">
+                    <div className="card_number w-[60px] h-[60px] flex items-center justify-center border border-[#9747FF] rounded-[50%] absolute -top-8 bg-white font-Barrow font-bold text-[26px] xl:text-[30px] 3xl:text-[34px]">{cardData + 1}</div>
+                    <h4 className="title_card_steps text-center text-[26px] xl:text-[30px] 3xl:text-[34px] font-Barrow font-semibold w-[80%]">
                         {cardsStep[cardData]?.title}
                     </h4>
-                    <p className="content_card_step text-center text-[18px] font-Barrow w-[70%]">
+                    <p className="content_card_step text-center text-[18px] xl:text-[20px] 3xl:text-[22px] font-Barrow w-[70%]">
                         {cardsStep[cardData]?.content}
                     </p>
                 </div>
@@ -83,12 +83,12 @@ export default function StepSectionActivacionBTL(){
             {/** End mobile version */}
                 <div className="hidden container_card_services_section_home md:flex justify-center items-center gap-5 w-[77%]">
                     {cardsStep?.map((item,key)=>(
-                        <div key={key} className="card_step_section_activacion_btl relative flex flex-col justify-between w-[18%] h-[300px] bg-white items-center gap-x-6 gap-y-6 px-5 pt-10 pb-10 text-[#390447] rounded-lg" >
-                            <div className="card_number w-[60px] h-[60px] flex items-center justify-center border border-[#9747FF] rounded-[50%] absolute -top-8 bg-white font-Barrow font-bold text-[26px]">{key+1}</div>
-                            <h4 className="title_card_steps text-center text-[26px] font-Barrow font-semibold w-[80%]">
+                        <div key={key} className="card_step_section_activacion_btl relative flex flex-col justify-between w-[18%] h-[320px] bg-white items-center gap-x-6 gap-y-6 px-5 pt-10 pb-10 text-[#390447] rounded-lg" >
+                            <div className="card_number w-[60px] h-[60px] flex items-center justify-center border border-[#9747FF] rounded-[50%] absolute -top-8 bg-white font-Barrow font-bold text-[26px] xl:text-[30px] 3xl:text-[34px]">{key+1}</div>
+                            <h4 className="title_card_steps text-center text-[26px] xl:text-[30px] 3xl:text-[34px] font-Barrow font-semibold w-[80%]">
                                 {item?.title}
                             </h4>
-                            <p className="content_card_step text-center text-[18px] h-[80%] flex items-center font-Barrow w-[70%]">
+                            <p className="content_card_step text-center text-[18px] xl:text-[20px] 3xl:text-[22px] h-[80%] flex items-center font-Barrow w-[70%]">
                                 {item?.content}
                             </p>
                         </div>
@@ -107,7 +107,7 @@ export default function StepSectionActivacionBTL(){
                             boxShadow: "2px 2px 6px #0008",
                             height: "40px",
                         }}
-                        className="w-[100%] md:w-auto cta_info_contact_section cursor-pointer bg-[#fff] transition duration-300 ease-in-out text-[17px] md:text-[25px] text-[#390447] font-bold hover:bg-[#fff] hover:text-[#AD0569]">
+                        className="w-[100%] md:w-auto cta_info_contact_section cursor-pointer bg-[#fff] transition duration-300 ease-in-out text-[17px] md:text-[25px] xl:text-[30px] 3xl:text-[34px] text-[#390447] font-bold hover:bg-[#fff] hover:text-[#AD0569]">
                             Crear una activación WOW
                 </button>
                 </Link>
