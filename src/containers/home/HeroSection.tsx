@@ -6,7 +6,7 @@ export default function HeroSectionHome() {
 
     return (
         <section
-            className="hero_section_home relative w-screen bg-gray-900 min-h-screen h-screen md:min-h-[750px]"
+            className="hero_section_home relative w-screen bg-gray-900 min-h-screen h-screen md:min-h-[750px] 3xl:min-h-[960px]"
             id="hero_section_home"
             style={{
                 width:"100vw",
@@ -22,15 +22,15 @@ export default function HeroSectionHome() {
         >
             <Wave/>
             <div 
-                className="info_section_home w-full md:w-[77%] flex flex-col items-center md:items-start justify-center gap-6"
+                className="info_section_home w-[77%] md:w-[77%] flex flex-col items-start md:items-start justify-center gap-6"
                 style={{
                     
                 }}
             >
-                <h1 className="title_info_section_home text-center md:text-left w-[50%] text-[30px] md:text-[40px] 3xl:text-[56px] font-bold leading-16 text-white">
+                <h1 className="title_info_section_home text-left w-[80%] md:w-[50%] text-[32px] md:text-[40px] 3xl:text-[56px] font-bold md:leading-16 text-white">
                     Donde la emoción se encuentra con la innovación.
                 </h1>
-                <h4 className="subtitle_info_section_home w-85 text-center md:text-left text-[26px] xl:text-[30px] 3xl:text-[34px] font-light leading-10 text-white">
+                <h4 className="subtitle_info_section_home w-85 text-left text-[26px] xl:text-[30px] 3xl:text-[34px] font-medium text-shadow-lg leading-10 text-white">
                     Eventos con propósito, emoción y tecnología 4.0. 
                 </h4>
                 <Link to="https://wa.me/573188016709?text=Conocer+m%C3%A1s+sobre+los+servicios+Event+Clap" target="_blank">

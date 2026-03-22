@@ -4,7 +4,7 @@ import { Link } from "react-router"
 
 export default function HeroSectionActivacionBTL() {
     return (
-        <section className="hero_section_activacion_btl justify-center items-end md:items-center pb-20 pb-0 min-h-screen h-screen md:min-h-[750px]" style={{
+        <section className="hero_section_activacion_btl justify-center items-end md:items-center pb-20 pb-0 min-h-screen h-screen md:min-h-[750px] 3xl:min-h-[960px]" style={{
             width: "100vw",
             position:"relative", 
             backgroundImage: `url(${image_banner})`,

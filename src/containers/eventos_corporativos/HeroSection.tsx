@@ -4,7 +4,7 @@ import { Link } from "react-router"
 
 export default function HeroSectionEventosCorporativos() {
     return (
-        <section className="hero_section_eventos_corporativos flex flex-col md:flex-row justify-end md:justify-center items-center gap-10 py-20 px-5 min-h-screen h-screen md:min-h-[750px]" style={{
+        <section className="hero_section_eventos_corporativos flex flex-col md:flex-row justify-end md:justify-center items-center gap-10 py-20 px-5 min-h-screen h-screen md:min-h-[750px] 3xl:min-h-[960px]" style={{
             width: "100vw",
             position:"relative",
             backgroundImage: `url(${image_banner})`,

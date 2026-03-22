@@ -4,7 +4,7 @@ import { Link } from "react-router"
 
 export default function HeroSectionMarketingEmocional() {
     return (
-        <section className="hero_section_marketing_emocional justify-center items-end md:items-center pb-4 min-h-screen h-screen md:min-h-[750px]" 
+        <section className="hero_section_marketing_emocional justify-center items-end md:items-center pb-4 min-h-screen h-screen md:min-h-[750px] 3xl:min-h-[960px]" 
         style={{
             width: "100vw",
             position: "relative",
